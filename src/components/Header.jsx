@@ -37,12 +37,13 @@ const Header = () => {
           />
         </div>
       </div>
+      {/* Mobile view  */}
       {modal && (
         <div className="fixed w-full h-full top-0 left-0 z-50 bg-white">
           <div className="flex  flex-col items-center mt-40 gap-10 w-full h-full">
             <IoCloseCircleOutline
               size={32}
-              className="absolute top-5 right-5"
+              className="absolute top-5 right-5 "
               onClick={(e) => setModal(!modal)}
             />
             <img src={logo} alt="logo" className="object-contain w-[250px]" />
