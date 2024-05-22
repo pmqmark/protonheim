@@ -6,8 +6,10 @@ import { Outlet } from "react-router-dom";
 const Layout = () => {
   return (
     <div>
-      <Header />
-      <section className="p-2">
+      <div className="flex flex-col items-center">
+        <Header />
+      </div>
+      <section className="mt-16">
         <Outlet />
       </section>
       <Footer />
