@@ -7,7 +7,7 @@ import OurTeam from "../components/OurTeam";
 
 const Home = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <LandingPage />
       <OurServices />
       <AboutUs />
