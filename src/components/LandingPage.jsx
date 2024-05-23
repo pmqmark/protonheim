@@ -25,7 +25,7 @@ const LandingPage = () => {
             Explore Protoheim <GoArrowRight />
           </button>
         </div>
-        
+
         <div className="w-full h-full flex flex-col items-center  relative">
           <div className="absolute bg-white rounded-full top-32 md:top-64 right-2  flex items-center justify-center z-10 shadow-lg">
             <img
@@ -50,8 +50,12 @@ const LandingPage = () => {
               />
             </div>
             <div className="">
-              <h1 className="text-[#283891] font-[600] text-sm md:text-[22px]">1000+</h1>
-              <h5 className="text-[#646464] text-xs md:text-sm">Satisfied Learners</h5>
+              <h1 className="text-[#283891] font-[600] text-sm md:text-[22px]">
+                1000+
+              </h1>
+              <h5 className="text-[#646464] text-xs md:text-sm">
+                Satisfied Learners
+              </h5>
             </div>
           </div>
           <div className="bg-gradient-to-r from-[#25AAE1] to-[#25AAE1]/0 w-[100%] sm:w-[490px] h-[90%] sm:h-[80%] absolute rounded-tr-[40%] sm:ml-20 bottom-0"></div>
@@ -68,8 +72,11 @@ const LandingPage = () => {
       {/* cross baners */}
       <div class="w-full h-[110px] absolute bottom-0 -left-0 z-20 ">
         <div className="w-full h-full flex items-end justify-center relative">
-          <div class="bg-[#27AAE0] w-full h-[90%]  absolute transform rotate-3 sm:rotate-3 rounded-xl"></div>
-          <div class="bg-[#2C3145] sm:text-4xl text-nowrap text-white font-semibold w-full h-[90%] absolute transform -rotate-3 sm:-rotate-3 flex items-center justify-center tracking-wide rounded-xl">
+          <div class="bg-[#27AAE0] w-full h-[75%] md:h-[90%]  absolute transform rotate-3 sm:rotate-3 rounded-lg md:rounded-xl"></div>
+          <div
+            class="bg-[#2C3145] sm:text-4xl text-nowrap text-white font-semibold w-full h-[75%] md:h-[90%] absolute transform -rotate-3 
+          sm:-rotate-3 flex items-center justify-center tracking-wide rounded-lg md:rounded-xl"
+          >
             LEARN WITH PROTOHEIM <span className="text-[#27AAE0]"> . </span>{" "}
             LEARN WITH PROTOHEIM . LEARN WITH PROTOHEIM
           </div>

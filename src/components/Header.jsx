@@ -8,7 +8,7 @@ const Header = () => {
   const [modal, setModal] = useState(false);
   return (
     <header className="bg-white fixed w-full z-40">
-      <div className="max-w-[1280px] mx-auto  flex justify-between items-center p-2 py-5 sm:p-4 ">
+      <div className="max-w-[1280px] mx-auto  flex justify-between items-center p-2 py-5">
         <div className="flex items-center justify-center gap-20">
           <img src={logo} alt="logo" className="object-contain w-[180px] " />
           <nav className="space-x-4 text-[#646464]  gap-5 hidden sm:flex">

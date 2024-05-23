@@ -3,7 +3,7 @@ import { services } from "../data/Data";
 
 const OurServices = () => {
   return (
-    <section id="services" className="py-24 bg-white w-full p-2">
+    <section id="services" className=" mt-20 md:mt-0 md:py-24 bg-white w-full p-2">
       <div className="max-w-[1280px] mx-auto ">
         <div className="flex flex-col items-center justify-center">
           <h5 className="text-[#646464] text-lg">Why are we the best?</h5>
@@ -12,7 +12,7 @@ const OurServices = () => {
           </span>
         </div>
 
-        <div className="flex flex-wrap gap-7  w-full h-full items-start justify-center my-6 sm:my-10">
+        <div className="flex flex-wrap gap-7  w-full h-full items-start justify-center my-6 sm:mt-10">
           {services.map((service, index) => (
             <div
               key={index}
