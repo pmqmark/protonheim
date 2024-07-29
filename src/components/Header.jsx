@@ -3,8 +3,6 @@ import { LuMenu } from "react-icons/lu";
 import { IoCloseCircleOutline } from "react-icons/io5";
 import '../css/Header.css';
 
-
-
 const Header = () => {
   const [modal, setModal] = useState(false);
   return (

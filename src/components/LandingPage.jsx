@@ -6,7 +6,7 @@ const LandingPage = () => {
   return (
     <section
       id="home"
-      className="bg-blue-50  p-2 sm:p-0 w-full sm:h-[100vh] bg-gradient-to-r from-[#CCF0FF] to-[#fcfefe] relative flex items-center justify-center"
+      className="container-fluid  p-2 sm:p-0 w-full sm:h-[100vh] bg-gradient-to-r from-[#CCF0FF] to-[#fcfefe] relative flex items-center justify-center"
     >
       <div>
       <img src={mainphoto}></img>
