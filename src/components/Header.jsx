@@ -28,6 +28,10 @@ const Header = () => {
         <button type="button" className="btn btn-info text-white ">
             Contact  
           </button>
+         <div className="mainphototext">
+          <p className="text-above">We inspire to<br/> innovate</p>
+         <p className="text-below">Our Solutions include smart home devices,industrial automation, and<br/> data-driven insights for a connected world </p>
+         </div>
           {/* <LuMenu
             size={32}
             className="sm:hidden"

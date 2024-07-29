@@ -1,5 +1,5 @@
 import React from "react";
-import LandingPage from "../components/LandingPage";
+// import LandingPage from "../components/LandingPage";
 import OurServices from "../components/OurServices";
 import AboutUs from "../components/AboutUs";
 import Header from "../components/Header";
@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className="overflow-hidden">
       <Header/>
-      <LandingPage />
+      {/* <LandingPage /> */}
       <OurProducts />
       <OurServices />
       <AboutUs />
