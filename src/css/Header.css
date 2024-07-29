@@ -174,14 +174,14 @@ nav{
     display: flex;
 }
 .icon-header1{
-    color: blue;
+    color: black;
     font-weight: 600;
     font-size: 18px;
     margin-bottom: 20px;
 }
 .icon-header2{
     font-weight: 200;
-    color: blue;
+    color: black;
     font-size: 13px;
     row-gap: 10px;
     margin-bottom: 40px;
