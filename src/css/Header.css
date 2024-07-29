@@ -26,10 +26,11 @@
 .bg-image{
 background-image: url(../assets/mainphoto.png);
 /* position: relative; */
-height: 100px;
+height:1000px;
 background-size: cover;
     background-position: center;
 }
+
 .protologo{
     float: left;
     margin-left: 20px;
@@ -42,6 +43,7 @@ background-size: cover;
     text-align: center;
     margin-left: 500px;
     margin-top: 20px;
+    
     
 }
 .nav-text1{
@@ -148,6 +150,8 @@ margin-right:30px ;
   text-align: center;
   color: white;
   font-weight: 600;
+  margin-top: 80px;
+  
 }
 .text-below{
     position: absolute;
@@ -158,6 +162,8 @@ margin-right:30px ;
     text-align: center;
     color: white;
     font-weight: 200;
+    margin-top: 85px;
+    
 }
 nav{
     display: flex;
