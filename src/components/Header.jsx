@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { LuMenu } from "react-icons/lu";
 import { IoCloseCircleOutline } from "react-icons/io5";
+import PROTOHEIMlogo from "../assets/PROTOHEIMlogo.png"
 import '../css/Header.css';
 
 const Header = () => {
@@ -8,8 +9,9 @@ const Header = () => {
   return (
     <div className="bg-image">
       <div className="top-nav container-fluid">
-      
+      <div className="protologo"><img src={PROTOHEIMlogo} ></img></div>
           <nav className=" nav-text ">
+          
             <a href="#home" className="nav-text1 ">
               Home
             </a>
@@ -30,7 +32,7 @@ const Header = () => {
           </button>
          
           <p className="text-above">We inspire to<br/> innovate</p>
-         <p className="text-below">Our Solutions include smart home devices,industrial automation, and<br/> data-driven insights for a connected world </p>
+         <p className="text-below">Our Solutions include smart home devices, industrial automation, and<br/> data-driven insights for a connected world </p>
          
           {/* <LuMenu
             size={32}
@@ -49,7 +51,7 @@ const Header = () => {
               className="absolute top-5 right-5 "
               onClick={(e) => setModal(!modal)}
             />
-            <img src={logo} alt="logo" className="object-contain w-[250px]" />
+          
             <nav className="text-[#646464]  gap-5 flex flex-col items-center justify-center w-full ">
               <a href="#home" className="font-semibold text-primaryColor ">
                 Home
