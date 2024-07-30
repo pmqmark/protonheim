@@ -9,7 +9,7 @@ import '../css/Header.css';
 
 const OurProducts = () => {
   return (
-    <section id="services" className=" mt-20 md:mt-0 md:py-24 bg-white w-full p-2">
+    <section id="services" className=" mb-20 md:mt-0 md:py-24 bg-white w-full p-2">
       <div className="max-w-[1280px] mx-auto ">
         <div className="flex flex-col items-center justify-center">
           <span className="products ">

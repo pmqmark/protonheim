@@ -1,6 +1,7 @@
 /* .btn{
     align-items: end;
 } */
+
 * {
     margin: 0;
     padding: 0;
@@ -29,6 +30,7 @@ background-image: url(../assets/mainphoto.png);
 height:1000px;
 background-size: cover;
     background-position: center;
+    
 }
 
 .protologo{
@@ -74,6 +76,7 @@ margin-right:30px ;
 .products{
     color:blue;
     font-size: 15px;
+    
 }
 .dispton{
     color:blue;
@@ -81,6 +84,7 @@ margin-right:30px ;
     font-weight: 600;
     text-align: center;
     margin-bottom: 30px;
+   
 }
 .dispton1{
     color:black;
@@ -100,20 +104,30 @@ margin-right:30px ;
     flex-direction: row;
     display: flex;
     margin-top: 70px;
+    
 }
 .img-cards2{
     flex-direction: row;
     display: flex;
     margin-top: 10px;
-    height: 300px;
+    height: 350px;
+    width: 450;
     
     
 }
 .card-body{
-   padding: 10 10 10 10;
+   
+   /* background-color: rgb(230, 235, 237); */
+   
 }
 .card{
     margin-right:20px!important;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(248, 250, 250);
+    
     }
 .card-title{
     color: black;
@@ -125,17 +139,20 @@ margin-right:30px ;
     font-size: 12px;
     font-weight: 200;
     text-align: center;
+    margin-top: 30px;
 }
 .card-tex1{
-    font-size: 18px;
-    
+    font-size: 30px;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 .arrow{
     flex-direction: row;
     display: flex;
     text-align: center;
     font-weight: 500;
+    margin-left: 50px;
+    margin-top: 20px;
 }
 .arrow1{
     flex-direction: row;
@@ -153,7 +170,7 @@ margin-right:30px ;
   text-align: center;
   color: white;
   font-weight: 600;
-  margin-top: 80px;
+  margin-top: 160px;
   
 }
 .text-below{
@@ -165,7 +182,7 @@ margin-right:30px ;
     text-align: center;
     color: white;
     font-weight: 200;
-    margin-top: 85px;
+    margin-top: 135px;
     
 }
 nav{
@@ -272,7 +289,7 @@ nav{
     font-size: 30px;
     font-weight: 500;
     text-align: center;
-    margin-top: 100px;
+    padding-top: 100px;
     margin-left: 100px;
     margin-bottom: 50px;
 }
@@ -311,6 +328,7 @@ nav{
     display: flex;
     margin-left:700px;
     margin-top: 30px;
+    padding-top: 30px;
 }
 .footer2{
     margin-right: 30px;

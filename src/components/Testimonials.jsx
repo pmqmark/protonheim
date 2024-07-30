@@ -28,7 +28,7 @@ const Testimonials=()=>{
           <div className="card" style={{width: '18rem'}}>
   <img className="card-img-top1" src={Oval2} alt="Card image cap" />
   <div className="card-body">
-    <p className="card-text1">“Simply the best. Better than<br/> all the rest. I’d recommend this<br/> product to beginners and<br/> advanced users.”</p>
+    <p className="card-text1">“Simply the best. Better than<br/> all the rest. I’d recommend this product to beginners and  advanced users.”</p>
     <a href="#" className="arrow1" >Curtis Rhodes</a>
   </div>
   </div>
@@ -38,7 +38,7 @@ const Testimonials=()=>{
           <div className="card" style={{width: '18rem'}}>
   <img className="card-img-top1" src={Oval3} alt="Card image cap" />
   <div className="card-body">
-    <p className="card-text1">“Must have book for all, who<br/> want to be Product Designer or<br/> Interaction Designer.”
+    <p className="card-text1">“Must have book for all, who<br/> want to be Product Designer or Interaction Designer.”
 </p>
     <a href="#" className="arrow1" >Lucas Mann</a>
   </div>
