@@ -8,9 +8,9 @@ const Layout = () => {
       <div className="flex flex-col items-center">
         
       </div>
-      <section className="mt-16">
+      
         <Outlet />
-      </section>
+      
       
     </div>
   );
