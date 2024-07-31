@@ -5,7 +5,7 @@ import Oval3 from "../assets/Oval3.png"
 
 const Testimonials=()=>{
     return(
-        <section>
+        <section className="p-3">
             <div className="about-dis">
           <h5 className="products">TESTIMONIALS</h5>
           <span className="dispton1">

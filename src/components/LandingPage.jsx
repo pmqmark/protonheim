@@ -3,7 +3,7 @@ import PROTOHEIMlogo from "../assets/PROTOHEIMlogo.png";
 
 const LandingPage = () => {
   return (
-    <div className="bg-image">
+    <div className="bg-image ">
       <div className="top-nav container-fluid">
         <div className="contact-button">
           <p className="text-above">

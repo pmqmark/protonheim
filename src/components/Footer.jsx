@@ -7,7 +7,7 @@ import linkedin from "../assets/linkedin.png"
 
 const Footer = () => {
   return (
-    <footer className="footer ">
+    <footer className="footer p-3 ">
        
        <h1 className="footer-text1">Protoheim</h1>
        <div className="footer-text2 ">

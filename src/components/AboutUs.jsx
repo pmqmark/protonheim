@@ -7,7 +7,7 @@ import No3 from "../assets/No3.png";
 
 const AboutUs = () => {
   return (
-    <section id="about" className="about-section py-16  p-2">
+    <section id="about" className="about-section py-16  p-3">
       <div className="about-dis">
         <h5 className="products">ABOUT US</h5>
         <span className="dispton1">
