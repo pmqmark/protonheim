@@ -1,81 +1,37 @@
 import React, { useState } from "react";
 import { LuMenu } from "react-icons/lu";
 import { IoCloseCircleOutline } from "react-icons/io5";
-import PROTOHEIMlogo from "../assets/PROTOHEIMlogo.png"
-import '../css/Header.css';
+import PROTOHEIMlogo from "../assets/PROTOHEIMlogo.png";
+import "../css/Header.css";
 
 const Header = () => {
   const [modal, setModal] = useState(false);
   return (
-    <div className="bg-image">
-      <div className="top-nav container-fluid">
-      <div className="protologo"><img src={PROTOHEIMlogo} ></img></div>
-          <nav className=" nav-text ">
-          
-            <a href="#home" className="nav-text1 ">
-              Home
-            </a>
-            <a href="#about" className="nav-text2">
-              Products
-            </a>
-            <a href="#services" className="nav-text3">
-              Service 
-            </a>
-            <a href="#team" className="">
-              About
-            </a>
-          </nav>
-        
-        <div className="contact-button">
-        <button type="button" className="btn btn-info text-white ">
-            Contact  
-          </button>
-         
-          <p className="text-above">We inspire to<br/> innovate</p>
-         <p className="text-below">Our Solutions include smart home devices, industrial automation, and<br/> data-driven insights for a connected world </p>
-         
-          {/* <LuMenu
-            size={32}
-            className="sm:hidden"
-            onClick={(e) => setModal(!modal)}
-          /> */}
-        </div>
+    <div className="max-w-screen2xl mx-auto p-3 top-nav container-fluid absolute ">
+      <div className="protologo">
+        <img src={PROTOHEIMlogo}></img>
       </div>
-      
-      {/* Mobile view 
-      {modal && (
-        <div className="fixed w-full h-full top-0 left-0 z-50 bg-white">
-          <div className="flex  flex-col items-center mt-40 gap-10 w-full h-full">
-            <IoCloseCircleOutline
-              size={32}
-              className="absolute top-5 right-5 "
-              onClick={(e) => setModal(!modal)}
-            />
-          
-            <nav className="text-[#646464]  gap-5 flex flex-col items-center justify-center w-full ">
-              <a href="#home" className="font-semibold text-primaryColor ">
-                Home
-              </a>
-              <a href="#about" className="">
-                About Us
-              </a>
-              <a href="#services" className="">
-                Courses
-              </a>
-              <a href="#team" className="">
-                Careers
-              </a>
-            </nav>
-            <button className="bg-gradient-to-l from-primaryColor to-secondaryColor p-2 py-3 px-5  rounded-[6px] flex items-center justify-center gap-2  text-white text-sm ">
-             <img src={icon} alt="icon" className="object-cover w-5" />
-          </button>
-          </div>
-        </div>
-      )} */}
+      <div className="text-white flex items-center justify-center ">
+        <a href="#home" className="nav-text1 ">
+          Home
+        </a>
+        <a href="#about" className="nav-text2">
+          Products
+        </a>
+        <a href="#services" className="nav-text3">
+          Service
+        </a>
+        <a href="#team" className="">
+          About
+        </a>
+      </div>
+      <div>
+        <button type="button" className="btn btn-info text-white ">
+          Contact
+        </button>
+      </div>
     </div>
-    
   );
 };
 
 export default Header;
-
