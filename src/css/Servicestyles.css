@@ -1,0 +1,33 @@
+.service-section{
+   margin-left: 300px;
+   align-items: center;
+   margin-right: 300px;
+   
+}
+.servicemain{
+   background-color: #F4F7FA ;
+}
+.choose-head{
+    text-align: center;
+    font-size: 2.25rem;
+    color:#161C2D;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+.choose-ul{
+    list-style-type: disc; /* Ensures bullet points are used */
+  padding-left: 100px; 
+  margin-left: 500px;
+  margin-right: 180px;
+}
+.choose-li{
+    font-size: 1.1875rem;
+    color: #161C2D;
+    text-align: center;
+    font-weight: 200;
+    margin-left: px;
+    margin-right: 200px;
+}
+.choose-dis{
+    text-align: center;
+}

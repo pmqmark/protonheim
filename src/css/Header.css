@@ -96,11 +96,6 @@ text-align: center;
     
 }
 
-.products{
-    color: #25AAE1;
-    font-size: 0.9375rem;
-    
-}
 .dispton{
     color: #283891;
     font-size: 30px;
@@ -120,8 +115,9 @@ text-align: center;
 .products{
     margin-top: 6.25rem;
     text-align: center;
-    font-size: 0.8125rem;
     margin-bottom: 1px;
+    color: #25AAE1;
+    font-size: 0.9375rem;
 
 }
 .img-cards{
@@ -317,7 +313,8 @@ text-align: center;
     width: 3.125rem;
 }
 .footer{
-    background-color: blue;
+    background-color: #283891;
+    height: 20rem;
     height: 25rem;
     
 }
@@ -514,7 +511,7 @@ text-align: center;
         margin-right: 0;
     }
     .footer{
-        background-color: blue;
+        background-color: #283891;
         height: 20rem;
         
     }
@@ -572,6 +569,13 @@ text-align: center;
         margin-right: 1.875rem;
     }
     
+}
+@media (max-width: 1024px){
+    .footer{
+        background-color: #283891;
+        height: 20rem;
+        
+    }
 }
 @media (max-width:992px){
     .protologo img{
@@ -715,7 +719,7 @@ text-align: center;
         margin-right: 1.25rem;
     }
     .footer{
-        background-color: blue;
+        background-color:  #283891;
         height: 18rem;
         
     }
@@ -935,7 +939,7 @@ text-align: center;
         margin-right: 0;
     }
     .footer{
-        background-color: blue;
+        background-color:  #283891;
         height: 15rem;
         
     }
@@ -1145,7 +1149,7 @@ text-align: center;
         margin-right: .625rem;
     }
     .footer{
-        background-color: blue;
+        background-color: #283891;
         height: auto;
         padding: 1rem;
         

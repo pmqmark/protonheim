@@ -5,16 +5,19 @@ import OurProducts from "../components/OurProducts";
 import Testimonials from "../components/Testimonials";
 import Ourclients from "../components/Ourclients";
 import LandingPage from "../components/LandingPage";
+import Layout from "../util/Layout";
 
 const Home = () => {
   return (
     <div className="overflow-hidden">
+      
       <LandingPage />
       <OurProducts />
       <OurServices />
       <AboutUs />
       <Testimonials />
       <Ourclients />
+
     </div>
   );
 };
