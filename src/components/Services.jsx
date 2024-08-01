@@ -9,9 +9,9 @@ import '../css/Servicestyles.css'
 
 const Services = () => {
   return (
-    <div>
-            <section className='servicemain mt-40'>
-                <div className="about-dis">
+    <div className='p-3'>
+            <section className='servicemain mt-40 '>
+                <div className="about-dis ">
                   <h5 className="products">ABOUT US</h5>
                   <span className="dispton1">
                   Beyond Fixes: Dive into Our<br/>Fantastically Futuristic Hardware<br/>Services
@@ -72,8 +72,8 @@ const Services = () => {
 </div>
 </section>
 
-<section className='choose-section'>
-    <div className='choose-div'>
+<section className='choose-section '>
+    <div className='choose-div '>
     <div className='icon-details1'>
     <h1 className='choose-head'>Why Choose<br/> Our Services?</h1>
         <ul className='choose-ul'>
