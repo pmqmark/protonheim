@@ -6,11 +6,11 @@ import '../css/Header.css';
 
 const OurServices=()=>{
     return(
-         <div>
+         <div className="p-3">
             <section id="services" className=" service-section mt-20 md:mt-0 md:py-24 bg-white w-full p-2">
             <div className="max-w-[1280px] mx-auto ">
         <div className="flex flex-col items-center justify-center ">
-          <div className="services">
+          <div className="about-dis">
           <span className="products mt-5">
             OUR SERVICES
           </span>
@@ -25,8 +25,8 @@ const OurServices=()=>{
     <img className="icon-ic1" src={ic_layers1} />
   </p>
   <div className="icon-details">
-  <h2 className="icon-header1 text-primary">Embedded System Design</h2>
-  <p className="icon-header2 text-primary">With lots of unique blocks, you can<br/> easily build a page without coding.<br/>Build your next landing page </p>
+  <h2 className="icon-headers1 ">Embedded System Design</h2>
+  <p className="icon-headers2 ">With lots of unique blocks, you can<br/> easily build a page without coding.<br/>Build your next landing page </p>
 </div>
 </div>
 </div>
@@ -37,8 +37,8 @@ const OurServices=()=>{
     <img className="icon-ic1" src={ic_layers2} />
   </p>
   <div className="icon-details">
-  <h2 className="icon-header1 text-primary">Embedded System Design</h2>
-  <p className="icon-header2 text-primary">With lots of unique blocks, you can<br/> easily build a page without coding.<br/>Build your next landing page </p>
+  <h2 className="icon-headers1 ">Embedded System Design</h2>
+  <p className="icon-headers2 ">With lots of unique blocks, you can<br/> easily build a page without coding.<br/>Build your next landing page </p>
 </div>
 </div>
 </div>
@@ -49,8 +49,8 @@ const OurServices=()=>{
     <img className="icon-ic1" src={ic_layers3} />
   </p>
   <div className="icon-details">
-  <h2 className="icon-header1 text-primary">Embedded System Design</h2>
-  <p className="icon-header2 text-primary">With lots of unique blocks, you can<br/> easily build a page without coding.<br/>Build your next landing page </p>
+  <h2 className="icon-headers1 ">Embedded System Design</h2>
+  <p className="icon-headers2 ">With lots of unique blocks, you can<br/> easily build a page without coding.<br/>Build your next landing page </p>
 </div>
 </div>
 </div>
@@ -63,8 +63,8 @@ const OurServices=()=>{
     <img className="icon-ic1" src={ic_layers1} />
   </p>
   <div className="icon-details">
-  <h2 className="icon-header1 text-primary">Embedded System Design</h2>
-  <p className="icon-header2 text-primary">With lots of unique blocks, you can<br/> easily build a page without coding.<br/>Build your next landing page </p>
+  <h2 className="icon-headers1 ">Embedded System Design</h2>
+  <p className="icon-headers2 ">With lots of unique blocks, you can<br/> easily build a page without coding.<br/>Build your next landing page </p>
 </div>
 </div>
 </div>
@@ -75,8 +75,8 @@ const OurServices=()=>{
     <img className="icon-ic1" src={ic_layers2} />
   </p>
   <div className="icon-details">
-  <h2 className="icon-header1 text-primary">Embedded System Design</h2>
-  <p className="icon-header2 text-primary">With lots of unique blocks, you can<br/> easily build a page without coding.<br/>Build your next landing page </p>
+  <h2 className="icon-headers1">Embedded System Design</h2>
+  <p className="icon-headers2">With lots of unique blocks, you can<br/> easily build a page without coding.<br/>Build your next landing page </p>
 </div>
 </div>
 </div>
@@ -87,8 +87,8 @@ const OurServices=()=>{
     <img className="icon-ic1" src={ic_layers3} />
   </p>
   <div className="icon-details">
-  <h2 className="icon-header1 text-primary">Embedded System Design</h2>
-  <p className="icon-header2 text-primary">With lots of unique blocks, you can<br/> easily build a page without coding.<br/>Build your next landing page </p>
+  <h2 className="icon-headers1">Embedded System Design</h2>
+  <p className="icon-headers2">With lots of unique blocks, you can<br/> easily build a page without coding.<br/>Build your next landing page </p>
 </div>
 </div>
 </div>

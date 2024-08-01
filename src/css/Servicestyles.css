@@ -1,0 +1,55 @@
+.service-section{
+   margin-left: 300px;
+   align-items: center;
+   margin-right: 300px;
+   
+}
+.servicemain{
+   background-color: #F4F7FA ;
+}
+.choose-head{
+    font-size: 2.25rem;
+    color:#161C2D;
+    margin-bottom: 50px;
+    font-weight: 600;
+    
+    
+}
+.choose-ul{
+    list-style-type: disc; /* Ensures bullet points are used */
+  /* padding-left: 100px;  */
+  
+}
+.choose-li{
+    font-size: 1.1875rem;
+    color: #161C2D;
+    font-weight: 200;
+    row-gap: .625rem;
+    margin-bottom: 2.5rem;
+    
+}
+.icon-details1{
+    flex-direction: column;
+    display: flex;
+    margin-left: 200px;
+}
+.choose-dis{
+    text-align: center;
+}
+.choose-section{
+    margin-bottom: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.choose-div{
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    margin-right: 100px;
+}
+.choose-image{
+
+    border-radius: 22px;
+
+}

@@ -8,7 +8,7 @@ import client6 from "../assets/client6.png"
 
 const Ourclients=()=>{
     return(
-        <section>
+        <section className="p-3">
             <div className="about-dis">
           <span className="dispton1">
           Our Clients

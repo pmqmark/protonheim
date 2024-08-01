@@ -27,6 +27,13 @@
     align-items: center;
     margin-left: 1.75rem;
 }
+.navbar-toggler{
+background-color: transparent; /* Make background transparent */
+  border: none; /* Remove border */
+  padding: 0.5rem; /* Add some padding */
+  cursor: pointer;
+  
+}
 .nav{
     /* margin-top: 20px;
     background-color: rgb(15, 6, 6); */
@@ -84,16 +91,13 @@ text-align: center;
     margin-right: 3.125rem;
     padding-top: 0.9375rem;
     padding-right: 0.9375rem;
+    text-align: center;
+    align-items: flex-end;
     
 }
 
-.products{
-    color:blue;
-    font-size: 0.9375rem;
-    
-}
 .dispton{
-    color:blue;
+    color: #283891;
     font-size: 30px;
     font-weight: 600;
     text-align: center;
@@ -101,17 +105,19 @@ text-align: center;
    
 }
 .dispton1{
-    color:black;
+    color: #161C2D;
     font-size: 2.25rem;
     font-weight: 600;
     text-align: center;
     margin-bottom: 1.875rem;
+    margin-top: 5px;
 }
 .products{
     margin-top: 6.25rem;
     text-align: center;
-    font-size: 0.8125rem;
-    margin-bottom: 0.625rem;
+    margin-bottom: 1px;
+    color: #25AAE1;
+    font-size: 0.9375rem;
 
 }
 .img-cards{
@@ -156,6 +162,7 @@ text-align: center;
     margin-top: 1.875rem;
 }
 .card-tex1{
+    color: #161C2D;
     font-size: 1.875rem;
     margin-bottom: 1.25rem;
     margin-top: 1.875rem;
@@ -208,10 +215,23 @@ text-align: center;
     display: flex;
 }
 .icon-header1{
-    color: black;
+    color: #283891;
     font-weight: 600;
     font-size: 1.125rem;
     margin-bottom: 1.25rem;
+}
+.icon-headers1{
+    color: #283891;
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin-bottom: 1.25rem;
+}
+.icon-headers2{
+    font-weight: 200;
+    color: #283891;
+    font-size: .8125rem;
+    row-gap: .625rem;
+    margin-bottom: 2.5rem;
 }
 .icon-header2{
     font-weight: 200;
@@ -237,10 +257,15 @@ text-align: center;
     display: flex;
 }
 .services{
-    gap:.625rem;
+    /* gap:.625rem;
     flex-direction: column;
     display: flex;
-    margin-bottom: 3.75rem;
+    margin-bottom: 3.75rem; */
+    margin-bottom: 5rem;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+
 }
 
 .icon-area1{
@@ -288,7 +313,8 @@ text-align: center;
     width: 3.125rem;
 }
 .footer{
-    background-color: blue;
+    background-color: #283891;
+    height: 20rem;
     height: 25rem;
     
 }
@@ -372,11 +398,11 @@ text-align: center;
       top: 20%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-size:  3.5rem;
+      font-size:  3rem;
       text-align: center;
       color: white;
       font-weight: 600;
-      margin-top: 8rem;
+      margin-top: 5rem;
       display: flex;
       
     }
@@ -389,7 +415,7 @@ text-align: center;
         text-align: center;
         color: white;
         font-weight: 200;
-        margin-top: 8rem;
+        margin-top: 4.5rem;
         display: flex;
         
     }
@@ -485,7 +511,7 @@ text-align: center;
         margin-right: 0;
     }
     .footer{
-        background-color: blue;
+        background-color: #283891;
         height: 20rem;
         
     }
@@ -543,6 +569,13 @@ text-align: center;
         margin-right: 1.875rem;
     }
     
+}
+@media (max-width: 1024px){
+    .footer{
+        background-color: #283891;
+        height: 20rem;
+        
+    }
 }
 @media (max-width:992px){
     .protologo img{
@@ -686,7 +719,7 @@ text-align: center;
         margin-right: 1.25rem;
     }
     .footer{
-        background-color: blue;
+        background-color:  #283891;
         height: 18rem;
         
     }
@@ -843,8 +876,22 @@ text-align: center;
         display: block;
         text-align: center;
 
-        
     }
+    .navbar-collapse {
+        display: none;
+      }
+    
+      .navbar-collapse.block {
+        display: block;
+      }
+    
+      .navbar-toggler {
+        display: block;
+      }
+    
+      .protologo {
+        flex-grow: 1;
+      }
     .img-cards, .img-cards2 {
         flex-direction: column;
         align-items: center;
@@ -892,7 +939,7 @@ text-align: center;
         margin-right: 0;
     }
     .footer{
-        background-color: blue;
+        background-color:  #283891;
         height: 15rem;
         
     }
@@ -982,7 +1029,7 @@ text-align: center;
       text-align: center;
       color: white;
       font-weight: 600;
-      margin-top: 4rem;
+      margin-top: 2.5rem;
       display: flex;
       
     }
@@ -991,11 +1038,11 @@ text-align: center;
         top:45%;
         left:50%;
         transform: translate(-50%, -50%);
-        font-size: 0.625rem;
+        font-size: 1rem;
         text-align: center;
         color: white;
         font-weight: 200;
-        margin-top: 4rem;
+        margin-top: 2rem;
         display: flex;
         
     }
@@ -1102,7 +1149,7 @@ text-align: center;
         margin-right: .625rem;
     }
     .footer{
-        background-color: blue;
+        background-color: #283891;
         height: auto;
         padding: 1rem;
         
