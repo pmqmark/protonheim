@@ -1,8 +1,12 @@
-.service-section{
-   margin-left: 350px;
+.service-section1{
+   margin-left: 200px;
    align-items: center;
-   margin-right: 300px;
+   margin-right: 100px;
+    margin-bottom: 6.25rem;   
    
+}
+.icon-ic3{
+    margin-left: 200px;
 }
 .servicemain{
    background-color: #F4F7FA ;

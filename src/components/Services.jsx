@@ -10,21 +10,21 @@ import '../css/Servicestyles.css'
 const Services = () => {
   return (
     <div className='p-3'>
-            <section className='servicemain mt-40 '>
+            <section className='service-section1 mt-40 '>
                 <div className="about-dis ">
                   <h5 className="products">ABOUT US</h5>
                   <span className="dispton1">
                   Beyond Fixes: Dive into Our<br/>Fantastically Futuristic Hardware<br/>Services
         </span>
         </div>
-        <div className='service-section'>
+        
         <div className="first-row">
           <div className="icon-area1">
   <div className="icon-dis">
   <p>
-    <img className="icon-ic1" src={serviceicon1} />
+    <img className="icon-ic3" src={serviceicon1} />
   </p>
-  <div className="icon-details">
+  <div className="icon-details1">
   <h2 className="icon-headers1 ">Embedded System Design</h2>
   <p className="icon-headers2 ">With lots of unique blocks, you can<br/> easily build a page without coding.<br/>Build your next landing page </p>
 </div>
@@ -48,9 +48,9 @@ const Services = () => {
 <div className="icon-area1">
   <div className="icon-dis">
   <p>
-    <img className="icon-ic1" src={serviceicon3} />
+    <img className="icon-ic3" src={serviceicon3} />
   </p>
-  <div className="icon-details">
+  <div className="icon-details1">
   <h2 className="icon-headers1 ">Embedded System Design</h2>
   <p className="icon-headers2 ">With lots of unique blocks, you can<br/> easily build a page without coding.<br/>Build your next landing page </p>
 </div>
@@ -69,7 +69,7 @@ const Services = () => {
 </div>
 </div>
 </div>
-</div>
+
 </section>
 
 <section className='choose-section '>
