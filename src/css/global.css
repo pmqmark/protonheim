@@ -1,0 +1,139 @@
+/* global.css */
+:root {
+    --header-bg-color: #ffffff; /* Default header color */
+    --footer-bg-color: #283891; /* Default footer color */
+    --header-nav-item-color: #000000; /* Default header nav item color */
+    --footer-nav-item-color: #ffffff; /* Default footer nav item color */
+    --footer-icon-filter: invert(100%); /* Default filter for white icons */
+}
+
+/* Header Styles */
+header {
+    background-color: var(--header-bg-color);
+}
+
+header nav a, header .nav-text, header .nav-text1, header .nav-text2, header .nav-text3 {
+    color: var(--header-nav-item-color);
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--footer-bg-color);
+}
+
+footer .footer-text1, footer .footer-text2 a {
+    color: var(--footer-nav-item-color);
+}
+
+footer .footer-icons img {
+    filter: var(--footer-icon-filter);
+}
+
+/* Other styles for header and footer components */
+.protologo img {
+    width: 130px;
+    float: left;
+    margin-right: auto;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.top-nav {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1.75rem;
+}
+
+.navbar-toggler {
+    background-color: transparent; /* Make background transparent */
+    border: none; /* Remove border */
+    padding: 0.5rem; /* Add some padding */
+    cursor: pointer;
+}
+
+.nav {
+    margin: 20px;
+    width: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.bg-image {
+    background-image: url(../assets/mainphoto.png);
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.nav-text {
+    display: flex;
+    gap: 1.875rem;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 1.25rem;
+}
+
+.nav-text1, .nav-text2, .nav-text3 {
+    margin-right: 1.875rem;
+    text-align: center;
+}
+
+.contact-button {
+    margin-left: auto;
+    float: right;
+    margin-right: 3.125rem;
+    padding-top: 0.9375rem;
+    padding-right: 0.9375rem;
+    text-align: center;
+    align-items: flex-end;
+}
+
+.footer {
+    background-color: var(--footer-bg-color);
+    height: 25rem;
+}
+
+.footer-text1 {
+    color: var(--footer-nav-item-color);
+    font-size: 1.875rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 6.25rem;
+    margin-left: 20px;
+    margin-bottom: 3.125rem;
+}
+
+.footer-text2 {
+    color: var(--footer-nav-item-color);
+    column-gap: .625rem;
+    row-gap: .625rem;
+    text-align: center;
+    font-size: 1.125rem;
+    margin-right: 30px;
+}
+
+.footer-text2 a {
+    margin-left: 6.25rem;
+}
+
+.footer1 {
+    margin-right: .25rem;
+}
+
+.footer-icons {
+    flex-direction: row;
+    display: flex;
+    margin-left: 40.625rem;
+    margin-top: 1.875rem;
+    padding-top: 1.875rem;
+}
+
+.footer2 {
+    margin-right: 1.875rem;
+}
