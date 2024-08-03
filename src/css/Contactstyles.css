@@ -1,6 +1,7 @@
 :root {
     
     --footer-bg-color:#283891; /* Default footer color */
+    --footer-icon-filter: invert(0%);
 }
 .contact-div{
     margin-top: 180px;
@@ -56,7 +57,7 @@ margin-bottom: 100px;
 .form button{
     width: 260px;
 }
-.footer {
+/* .footer {
     background-color: white;
 }
 .footer-text1,.footer-text2{
@@ -65,6 +66,9 @@ margin-bottom: 100px;
 .footer2{
     color:white;
 }
+footer .social-icon img {
+    filter: var(--footer-icon-filter);
+} */
 /* Media queries */
 
 @media(max-width:1200px){

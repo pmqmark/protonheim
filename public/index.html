@@ -49,26 +49,30 @@
       function changeHeaderFooterColor( footerColor) {
           
           document.documentElement.style.setProperty('--footer-bg-color', footerColor);
-      }
+          document.documentElement.style.setProperty('--footer-icon-filter', footerIconFilter);
+    }
       window.onload = function() {
         // Get the background color of the current page
         const pageBackgroundColor = getComputedStyle(document.body).backgroundColor;
         
         // Logic to determine header and footer colors based on page background
-        let headerColor, footerColor;
+        let  footerColor,footerIconFilter;
         
         // Example logic: Change based on page background color
         if (pageBackgroundColor === 'rgb(255, 255, 255)') { // white
             footerColor = '#000000'; // black
+            footerIconFilter = 'invert(100%)'; 
         } else if (pageBackgroundColor === 'rgb(22, 28, 45)') { // specific color
             
             footerColor = '#25AAE1'; // specific footer color
+            footerIconFilter = 'invert(100%)'; 
         } else {
            
             footerColor = '#ffffff'; // default white
+            footerIconFilter = 'invert(0%)'; 
         }
         
-        changeHeaderFooterColor( footerColor);
+        changeHeaderFooterColor( footerColor,footerIconFilter);
     };
 </script>
   </body>
