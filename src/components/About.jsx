@@ -18,22 +18,22 @@ const About = () => {
         </span>
         </div>
         <div className='about-cards'>
-        <div className="card" style={{width: '18rem'}}>
-        <img src={aboutimage1} className="card-img-top" alt="..." />
+        <div className="card1" style={{width: '18rem'}}>
+        <img src={aboutimage1} className="card-img-top2" alt="..." />
         <div className="card-body">
-        <p className="card-text">Our data valorization experts have a high level of knowledge which is demonstrated by successful achievements with partners of all sizes.</p>
+        <p className="card-text2">Our data valorization experts have a high level of knowledge which is demonstrated by successful achievements with partners of all sizes.</p>
     </div>
     </div>
-    <div className="card" style={{width: '18rem'}}>
-        <img src={aboutimage2} className="card-img-top" alt="..." />
+    <div className="card1" style={{width: '18rem'}}>
+        <img src={aboutimage2} className="card-img-top2" alt="..." />
         <div className="card-body">
-        <p className="card-text">We automate your non-value-added manual tasks and complex manipulations using the best data integration technologies in clear and transparent processes.</p>
+        <p className="card-text2">We automate your non-value-added manual tasks and complex manipulations using the best data integration technologies in clear and transparent processes.</p>
     </div>
     </div>
-    <div className="card" style={{width: '18rem'}}>
-        <img src={aboutimage3} className="card-img-top" alt="..." />
+    <div className="card1" style={{width: '18rem'}}>
+        <img src={aboutimage3} className="card-img-top2" alt="..." />
         <div className="card-body">
-        <p className="card-text">We integrate data visualization tools adapted to a human's decision-making process, allowing them to be informed when they need it.</p>
+        <p className="card-text2">We integrate data visualization tools adapted to a human's decision-making process, allowing them to be informed when they need it.</p>
     </div>
    </div>
 
