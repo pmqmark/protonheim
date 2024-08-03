@@ -1,0 +1,124 @@
+:root {
+    
+    --footer-bg-color:#283891; /* Default footer color */
+}
+.contact-div{
+    margin-top: 180px;
+    margin-left: 200px;
+    
+}
+.contactus-section{
+    background-color: #161C2D;
+    /* margin-top: 30px; */
+    display: flex;
+    flex-direction: row;
+    column-gap: 400px;
+    /* height: 800px; */
+    
+}
+.contact-div h1{
+    color: white;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.contact-div p{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 65%;
+}
+.chat-icon{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+}
+/* .contact-divmain{
+    
+    /* margin-bottom: 100px; 
+}*/
+.form-div{
+margin-top: 200px;
+background-color: white;
+border-radius: 10px;
+margin-bottom: 100px;
+
+}
+.form{
+    width: 300px;
+    height: 450px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.form button{
+    width: 260px;
+}
+.footer {
+    background-color: white;
+}
+.footer-text1,.footer-text2{
+    color: black;
+}
+.footer2{
+    color:white;
+}
+/* Media queries */
+
+@media(max-width:1200px){
+    .contact-div {
+        margin-left: 150px;
+    }
+    .contactus-section {
+        column-gap: 300px;
+    }
+}
+@media(max-width:992px){
+    .contact-div {
+        margin-left: 100px;
+    }
+    .contactus-section {
+        column-gap: 200px;
+    }
+}
+@media(max-width:768px){
+    .contact-div {
+        margin-left: 50px;
+    }
+    .contactus-section {
+        flex-direction: column;
+        align-items: center;
+        column-gap: 0;
+        row-gap: 50px;
+    }
+    .form {
+        width: 80%;
+        max-width: 300px;
+    }
+    .contact-div h1 {
+        font-size: 24px;
+    }
+}
+@media(max-width:576px){
+    .contact-div {
+        margin-left: 20px;
+    }
+    .contactus-section {
+        flex-direction: column;
+        align-items: center;
+        column-gap: 0;
+        row-gap: 30px;
+    }
+    .form {
+        width: 90%;
+        max-width: 300px;
+    }
+    .contact-div h1 {
+        font-size: 20px;
+    }
+    .contact-div p {
+        font-size: 10px;
+    }
+}
