@@ -1,208 +1,246 @@
-.product-images{
+/* Existing CSS */
+
+.product-images {
     display: flex;
     flex-direction: row;
-    margin-left: 250px;
-    column-gap: 50px;
-    margin-right: 200px;
-    
+    margin-left: 0; /* Removed the fixed margin-left */
+    margin-right: 0; /* Removed the fixed margin-right */
+    column-gap: 16px; /* Adjusted gap for better spacing */
+    flex-wrap: wrap; /* Allow wrapping of items */
 }
-.product-name1{
-    color: #25AAE1;
-    margin-left: 50px;
-    font-weight: 400;
 
+.product-name1 {
+    color: #25AAE1;
+    margin-left: 0; /* Adjusted margin */
+    font-weight: 400;
 }
-.product-name{
-color: #161C2D;
-margin-left: 50px;
-font-weight: 400;
+
+.product-name {
+    color: #161C2D;
+    margin-left: 0; /* Adjusted margin */
+    font-weight: 400;
 }
-.about-dis1{
-    margin-bottom: 8rem;
+
+.about-dis1 {
+    margin-bottom: 4rem; /* Adjusted margin */
     flex-direction: column;
     display: flex;
     text-align: center;
 }
-.flysky-section{
-    margin-top: 80px;
-    
+
+.flysky-section {
+    margin-top: 60px; /* Adjusted margin */
 }
-.video-dis1{
+
+.video-dis1 {
     flex-direction: row;
     display: flex;
-    margin-left: 100px;
-    column-gap: 60px;
+    margin-left: 0; /* Removed the fixed margin-left */
+    column-gap: 30px; /* Adjusted gap */
 }
+
 ol {
     list-style-type: decimal;
-    margin-left: 20px; /* Adjust margin if needed */
+    margin-left: 0; /* Removed the fixed margin-left */
     text-align: left;
-    margin-bottom: 30px;
+    margin-bottom: 20px; /* Adjusted margin */
     opacity: 70%;
-  }
-.flysky-p{
+}
+
+.flysky-p {
     text-align: left;
 }
-.flysky-img{
-     height: 350px;
-     width: 430px;
+
+.flysky-img {
+    height: 350px;
+    width: 430px;
 }
-.flysky-div{
-    margin-left: 160px;
+
+.flysky-div {
+    margin-left: 0; /* Removed the fixed margin-left */
 }
-.dispton1{
-    font-size: 2.25rem;
+
+.dispton1 {
+    font-size: 1.75rem; /* Adjusted font-size */
     font-weight: 400;
     text-align: center;
     margin-bottom: 1.875rem;
-    margin-top: 5px;
-    margin-right: 300px;
-    margin-left: 120px;
+    margin-right: 0; /* Removed the fixed margin-right */
+    margin-left: 0; /* Removed the fixed margin-left */
 }
-.dispton11{
-    font-size: 2.25rem;
-    font-weight: 400;
-    text-align: center;
-    margin-bottom: 1.875rem;
-    margin-top: 5px;
-    margin-right: 180px;
-    margin-left: 160px;
-}
-.description-section{
 
-
+.description-section {
 }
-.description-head{
-    margin-left: 250px;
+
+.description-head {
+    margin-left: 0; /* Removed the fixed margin-left */
     font-size: 36px;
     font-weight: 400;
     color: #000000;
     margin-bottom: 30px;
 }
-.description-p{
-    margin-left: 250px;
+
+.description-p {
+    margin-left: 0; /* Removed the fixed margin-left */
     opacity: 70%;
     font-size: 16px;
     margin-bottom: 50px;
+}
 
+.links {
+    text-decoration: underline;
 }
-.links{
-   text-decoration: underline;
-}
-.features-ol li{ 
+
+.features-ol li {
     list-style-type: decimal;
-    margin-left: 250px;
-    
+    margin-left: 0; /* Removed the fixed margin-left */
 }
-.feature-images{
+
+.feature-images {
     display: flex;
     flex-direction: row;
-    margin-left: 250px;
-    column-gap: 50px;
+    margin-left: 0; /* Removed the fixed margin-left */
+    column-gap: 16px; /* Adjusted gap for better spacing */
     height: 340px;
-     width: 500px;
-     margin-bottom: 50px;
+    width: 100%; /* Adjusted width */
+    margin-bottom: 50px;
 }
-.comment-section{
+
+.comment-section {
     background-color: #F4F7FA;
+    padding: 20px; /* Added padding for better spacing */
 }
-.comment-head{
+
+.comment-head {
     color: #161C2D;
     font-size: 20px;
     font-weight: 700;
 }
-.quotes1{
+
+.quotes1 {
     flex-direction: row;
     display: flex;
     align-items: center;
-    margin-left: 500px;
-    margin-bottom: 6.25rem;
+    margin-left: 0; /* Removed the fixed margin-left */
+    margin-bottom: 2rem; /* Adjusted margin-bottom */
 }
-.img-cards3{
+
+.img-cards3 {
     flex-direction: row;
     display: flex;
     margin-top: .625rem;
     height: 21.875rem;
-    width: 450;
+    width: 100%; /* Adjusted width */
     border: none;
 }
+
 /* Media queries */
 
-@media (max-width:1200px){
-    .product-images{
+@media (max-width: 1200px) {
+    .product-images {
         display: flex;
         flex-direction: column;
-        margin-left: 250px;
-        column-gap: 50px;
+        margin-left: 0; /* Adjusted margin */
+        margin-right: 0; /* Adjusted margin */
+        column-gap: 16px; /* Adjusted gap */
     }
-    .video-dis1{
+    .video-dis1 {
         flex-direction: column;
         display: flex;
-        margin-left: 80px;
-        column-gap: 60px;
-        margin-right: 80px;
+        margin-left: 20px; /* Adjusted margin */
+        column-gap: 30px; /* Adjusted gap */
+        margin-right: 20px; /* Adjusted margin */
     }
-    .dispton1{
-        font-size: 2rem;
+    .dispton1 {
+        font-size: 1.5rem; /* Adjusted font-size */
     }
-    .feature-images{
+    .feature-images {
         display: flex;
         flex-direction: column;
+        width: 100%; /* Ensure images fit container */
     }
 }
-@media (max-width:992px){
 
-    .product-images{
+@media (max-width: 992px) {
+    .product-images {
         display: flex;
         flex-direction: column;
-        margin-left: 250px;
-        column-gap: 50px;
+        margin-left: 0; /* Adjusted margin */
+        margin-right: 0; /* Adjusted margin */
+        column-gap: 16px; /* Adjusted gap */
     }
-    .video-dis1{
+    .video-dis1 {
         flex-direction: column;
         display: flex;
-        margin-left: 60px;
-        column-gap: 60px;
-        margin-right: 50px;
+        margin-left: 20px; /* Adjusted margin */
+        column-gap: 30px; /* Adjusted gap */
+        margin-right: 20px; /* Adjusted margin */
     }
-    .dispton1{
-        font-size: 1.75rem;
+    .dispton1 {
+        font-size: 1.25rem; /* Adjusted font-size */
     }
 }
-@media (max-width:768px){
 
-    .product-images{
+@media (max-width: 768px) {
+    .product-images {
         display: flex;
         flex-direction: column;
-        margin-left: 250px;
-        column-gap: 50px;
+        margin-left: 0; /* Adjusted margin */
+        margin-right: 0; /* Adjusted margin */
+        column-gap: 16px; /* Adjusted gap */
     }
-    .video-dis1{
+    .video-dis1 {
         flex-direction: column;
         display: flex;
-        margin-left: 40px;
-        column-gap: 60px;
-        margin-right: 40px;
+        margin-left: 10px; /* Adjusted margin */
+        column-gap: 20px; /* Adjusted gap */
+        margin-right: 10px; /* Adjusted margin */
     }
-    .dispton1{
-        font-size: 1.25rem;
+    .dispton1 {
+        font-size: 1rem; /* Adjusted font-size */
     }
 }
-@media (max-width:576px){
-    .product-images{
+
+@media (max-width: 576px) {
+    .product-images {
         display: flex;
         flex-direction: column;
-        margin-left: 250px;
-        column-gap: 50px;
+        margin-left: 0; /* Adjusted margin */
+        margin-right: 0; /* Adjusted margin */
+        column-gap: 16px; /* Adjusted gap */
     }
-    .video-dis1{
+    .video-dis1 {
         flex-direction: column;
         display: flex;
-        margin-left: 20px;
-        column-gap: 60px;
-        margin-right: 30px;
+        margin-left: 5px; /* Adjusted margin */
+        column-gap: 20px; /* Adjusted gap */
+        margin-right: 5px; /* Adjusted margin */
     }
-    .dispton1{
-        font-size: 1rem;
+    .dispton1 {
+        font-size: 0.875rem; /* Adjusted font-size */
+    }
+}
+
+@media (max-width: 900px) {
+    .product-images {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0; /* Adjusted margin */
+        margin-right: 0; /* Adjusted margin */
+    }
+    .video-dis1 {
+        flex-direction: column;
+        display: flex;
+        margin-left: 10px; /* Adjusted margin */
+        column-gap: 20px; /* Adjusted gap */
+        margin-right: 10px; /* Adjusted margin */
+    }
+    .dispton1 {
+        font-size: 1.5rem; /* Adjusted font-size */
+    }
+    .feature-images {
+        display: flex;
+        flex-direction: column;
+        width: 100%; /* Ensure images fit container */
     }
 }

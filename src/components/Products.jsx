@@ -14,7 +14,7 @@ const Products = () => {
   return (
     <div className="p-3">
       <section>
-        <div className="text-center">
+        <div className="text-center mb-12">
           <h5
             style={{
               fontFamily: 'Gilroy-Bold',
@@ -34,21 +34,21 @@ const Products = () => {
             </section>
           </div>
         </div>
-        <div className='flex flex-wrap justify-center gap-12 md:gap-24'>
-          <div className='text-center'>
-            <img src={product1} alt="FlySky CT6B" className="mx-auto" />
+        <div className='flex flex-col md:flex-row md:flex-wrap gap-8 md:gap-12 xl:gap-16'>
+          <div className='text-center w-full md:w-60 flex-shrink-0'>
+            <img src={product1} alt="FlySky CT6B" className="mx-auto w-full" />
             <p className='mt-2 text-[#25AAE1] font-normal'>FlySky CT6B</p>
           </div>
-          <div className='text-center'>
-            <img src={product2} alt="Product e244" className="mx-auto" />
+          <div className='text-center w-full md:w-60 flex-shrink-0'>
+            <img src={product2} alt="Product e244" className="mx-auto w-full" />
             <p className='mt-2 text-[#161C2D] font-normal'>Product e244</p>
           </div>
-          <div className='text-center'>
-            <img src={product2} alt="Product e244" className="mx-auto" />
+          <div className='text-center w-full md:w-60 flex-shrink-0'>
+            <img src={product2} alt="Product e244" className="mx-auto w-full" />
             <p className='mt-2 text-[#161C2D] font-normal'>Product e244</p>
           </div>
-          <div className='text-center'>
-            <img src={product2} alt="Product e244" className="mx-auto" />
+          <div className='text-center w-full md:w-60 flex-shrink-0'>
+            <img src={product2} alt="Product e244" className="mx-auto w-full" />
             <p className='mt-2 text-[#161C2D] font-normal'>Product e244</p>
           </div>
         </div>
@@ -139,40 +139,16 @@ const Products = () => {
         <div className="flex flex-wrap justify-center gap-20">
           <div className="bg-white shadow-md p-8 rounded-lg text-center w-[18rem]">
             <img className="mx-auto mb-4" src={commentimage1} alt="Corey Valdez" />
-            <div className="mt-4">
-              <h1 className='text-xl font-semibold'>“You made it so simple”</h1>
-              <p className="mt-2">My new site is so much faster and easier<br /> to work with than my old site.</p>
-              <div className="mt-4 text-blue-500">Corey Valdez</div>
-              <div>Founder at Zenix</div>
-            </div>
+            <p className="text-lg font-semibold mb-2">Corey Valdez</p>
+            <p className="text-gray-600">Engineer</p>
+            <p className="mt-4 text-gray-800">“This FlySky CT6B transmitter exceeded my expectations with its reliable performance and user-friendly design. It’s a great choice for anyone in need of a quality transmitter.”</p>
           </div>
-
-          <div className="bg-white shadow-md p-8 rounded-lg text-center w-[18rem] mt-4 md:mt-0">
-            <img className="mx-auto mb-4" src={commentimage2} alt="Ian Klein" />
-            <div className="mt-4">
-              <h1 className='text-xl font-semibold'>“Simply the best”</h1>
-              <p className="mt-2">Better than all the rest. I’d recommend<br /> this product to beginners.</p>
-              <div className="mt-4 text-blue-500">Ian Klein</div>
-              <div>Digital Marketer</div>
-            </div>
+          <div className="bg-white shadow-md p-8 rounded-lg text-center w-[18rem]">
+            <img className="mx-auto mb-4" src={commentimage2} alt="Sophie H." />
+            <p className="text-lg font-semibold mb-2">Sophie H.</p>
+            <p className="text-gray-600">Hobbyist</p>
+            <p className="mt-4 text-gray-800">“I’ve been using the FlySky CT6B for a few months now, and it’s been fantastic. The signal strength is solid, and it has all the features I need for my drone projects.”</p>
           </div>
-        </div>
-      </section>
-
-      <section className="mt-20">
-        <div className="text-center">
-          <p
-            style={{
-              fontFamily: 'Gilroy-Regular',
-              fontSize: '17px',
-              fontWeight: '400',
-              lineHeight: '29px',
-              letterSpacing: '-0.2px',
-              textAlign: 'center'
-            }}
-          >
-            Perfect for both amateur photographers looking to step up their game and professionals seeking a reliable solution.
-          </p>
         </div>
       </section>
     </div>

@@ -9,7 +9,7 @@ const textStyle = {
   fontFamily: 'Gilroy-Regular, sans-serif',
   fontSize: '13px',
   marginTop: '10px',
-  marginBottom: '15px', // Added margin to create space below the text
+  marginBottom: '15px',
   fontWeight: 400,
   lineHeight: '20px',
   letterSpacing: '-0.2px',
@@ -51,10 +51,12 @@ const deviceNameStyle = {
 
 // Card styling
 const cardStyle = {
-  width: '18rem',
+  width: '14rem',
   display: 'flex',
   flexDirection: 'column',
-  alignItems: 'center' // Center card contents
+  alignItems: 'center',
+  flexShrink: 0, // Prevent shrinking
+  marginBottom: '1rem' // Space between cards when stacked
 };
 
 // Styling for the "Learn More" link and arrow
@@ -64,11 +66,10 @@ const learnMoreStyle = {
   fontWeight: 400,
   lineHeight: '32px',
   letterSpacing: '-0.6px',
-  textAlign: 'center', // Center text within the container
+  textAlign: 'center',
   display: 'flex',
-  marginLeft: '60px',
   alignItems: 'center',
-  marginTop: '10px' // Space between paragraph and link
+  marginTop: '10px'
 };
 
 const OurProducts = () => {
@@ -76,45 +77,45 @@ const OurProducts = () => {
     <section id="services" className="mb-20 md:mt-0 md:py-24 bg-white w-full p-3">
       <div className="max-w-[1280px] mx-auto">
         <div className="flex flex-col items-center justify-center">
-          <span style={headingStyle}>
+          <span style={headingStyle} className="text-sm md:text-base">
             OUR PRODUCTS
           </span>
-          <span style={{ ...largeTextStyle, marginTop: '1.25rem' }}>
+          <span style={{ ...largeTextStyle, marginTop: '1.25rem' }} className="text-xl md:text-4xl">
             Step Into Tomorrow: Explore Our <br />Wonderfully Wacky Hardware!
           </span>
-          <div className="img-cards">
-            <div className="card" style={cardStyle}>
+          <div className="flex flex-col md:flex-row overflow-x-auto gap-4 mt-8">
+            <div className="card flex flex-col items-center flex-shrink-0 w-full sm:w-72 md:w-80 lg:w-96" style={cardStyle}>
               <img className="card-img-top" src={Rectangle1} alt="Card image cap" />
-              <div className="card-body">
-                <h5 style={deviceNameStyle}>Device Name</h5>
-                <p style={textStyle}>
+              <div className="card-body text-center">
+                <h5 style={deviceNameStyle} className="text-xl md:text-2xl">Device Name</h5>
+                <p style={textStyle} className="text-sm md:text-base">
                   Perfect for both amateur<br /> photographers looking to step up their<br /> game and professionals seeking a<br /> reliable
                 </p>
-                <a href="#" style={learnMoreStyle}>
+                <a href="#" style={learnMoreStyle} className="text-base md:text-lg">
                   Learn More <HiArrowSmRight style={{ marginLeft: '8px' }} />
                 </a>
               </div>
             </div>
-            <div className="card" style={cardStyle}>
+            <div className="card flex flex-col items-center flex-shrink-0 w-full sm:w-72 md:w-80 lg:w-96" style={cardStyle}>
               <img className="card-img-top" src={Rectangle2} alt="Card image cap" />
-              <div className="card-body">
-                <h5 style={deviceNameStyle}>Device Name</h5>
-                <p style={textStyle}>
+              <div className="card-body text-center">
+                <h5 style={deviceNameStyle} className="text-xl md:text-2xl">Device Name</h5>
+                <p style={textStyle} className="text-sm md:text-base">
                   Perfect for both amateur<br /> photographers looking to step up their<br /> game and professionals seeking a<br /> reliable
                 </p>
-                <a href="#" style={learnMoreStyle}>
+                <a href="#" style={learnMoreStyle} className="text-base md:text-lg">
                   Learn More <HiArrowSmRight style={{ marginLeft: '8px' }} />
                 </a>
               </div>
             </div>
-            <div className="card" style={cardStyle}>
+            <div className="card flex flex-col items-center flex-shrink-0 w-full sm:w-72 md:w-80 lg:w-96" style={cardStyle}>
               <img className="card-img-top" src={Rectangle3} alt="Card image cap" />
-              <div className="card-body">
-                <h5 style={deviceNameStyle}>Device Name</h5>
-                <p style={textStyle}>
+              <div className="card-body text-center">
+                <h5 style={deviceNameStyle} className="text-xl md:text-2xl">Device Name</h5>
+                <p style={textStyle} className="text-sm md:text-base">
                   Perfect for both amateur<br /> photographers looking to step up their<br /> game and professionals seeking a<br /> reliable
                 </p>
-                <a href="#" style={learnMoreStyle}>
+                <a href="#" style={learnMoreStyle} className="text-base md:text-lg">
                   Learn More <HiArrowSmRight style={{ marginLeft: '8px' }} />
                 </a>
               </div>
