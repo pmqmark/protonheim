@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Define Gilroy-Bold font */
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url('./assets/Fonts/FontsFree-Net-Gilroy-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Define Gilroy-Regular font */
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src: url('./assets/Fonts/Gilroy-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Gilroy-Bold', sans-serif;
 }

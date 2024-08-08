@@ -1,7 +1,18 @@
 /* .btn{
     align-items: end;
 } */
+/* src/fonts.css */
 
+/* src/fonts.css */
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('../assets/Fonts/FontsFree-Net-Gilroy-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
 * {
     margin: 0;
     padding: 0;
@@ -84,18 +95,34 @@ text-align: center;
 margin-right: 1.875rem ;
 text-align: center;
 }
-.contact-button{
-    /* margin-left: 800px; */
-    margin-left: auto;
-    float: right;
-    margin-right: 3.125rem;
-    padding-top: 0.9375rem;
-    padding-right: 0.9375rem;
-    text-align: center;
-    align-items: flex-end;
-    
-}
+/* src/Button.css */
 
+/* Styles for the button */
+.contact-button {
+    font-family: 'Gilroy-Bold';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21.05px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    width: 158px;      
+    height: 41px;     
+    top: 12.5px;      
+    gap: 0px;          
+    margin: 0;        
+    padding: 0;       
+    display: inline-block; 
+    position: relative; 
+    margin-left: 370px;
+  }
+  
+  /* Add this class to ensure the button is aligned to the right */
+  .navbar-end {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Aligns items to the right */
+    flex-grow: 1; /* Ensures this div takes available space */
+  }
 .dispton{
     color: #283891;
     font-size: 30px;

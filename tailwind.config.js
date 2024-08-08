@@ -1,15 +1,19 @@
-/** @type {import('tailwindcss').Config} */
+// tailwind.config.js
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}", // Adjust the paths as needed
   ],
   theme: {
     extend: {
+      fontFamily: {
+        gilroy: ['Gilroy-Bold', 'sans-serif'],
+      },
+      letterSpacing: {
+        custom: '-1.2px',
+      },
       colors: {
-        primaryColor: "#262262",
-        secondaryColor: "#25AAE1",
-        textPrimaryColor:"#646464"
-      }
+        black: 'rgba(0, 0, 0, 1)',
+      },
     },
   },
   plugins: [],
