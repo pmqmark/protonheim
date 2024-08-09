@@ -10,19 +10,19 @@ import ContactusPage from './page/ContactusPage';
 import usePageColors from './hooks/usePageColors';
 
 function App() {
-  
+
   return (
     <div className="App">
       <Router>
-        <PageColorsWrapper/>
+        <PageColorsWrapper />
         <Routes>
-            <Route path='' element={<Layout/>}>
+          <Route path='' element={<Layout />}>
             <Route path='/' element={<Home />} />
             <Route path='/services' element={<ServicePage />} />
             <Route path='/products' element={<ProductPage />} />
             <Route path='/about' element={<AboutPage />} />
             <Route path='/contactus' element={<ContactusPage />} />
-            </Route>
+          </Route>
         </Routes>
       </Router>
     </div>
