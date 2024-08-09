@@ -8,29 +8,29 @@ import client6 from "../assets/client6.png";
 
 const Ourclients = () => {
   return (
-    <section className="p-4 md:p-8 lg:p-12">
+    <section className="py-10 min-h-[65vh] max-w-[1280px] flex flex-col items-center justify-center mx-auto w-full p-3 overflow-hidden">
       <div className="text-center mb-8">
-        <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
+        <h2 className="text-3xl font-extrabold text-[#161C2D] mb-4">
           Our Clients
         </h2>
-        <p className="text-base md:text-lg lg:text-xl text-gray-600 mb-8">
+        <div className="font-thin">
           With lots of unique blocks, you can easily build a page without coding.
           <br />
           Build your next consultancy website within a few minutes. You have a business to run.
           <br />
           Stop worrying about cross-browser bugs, designing new pages.
-        </p>
-      </div>
-      <div className="flex flex-wrap justify-center gap-4">
-        <div className="flex flex-wrap justify-center gap-4 max-w-lg mx-auto">
-          <img src={client1} alt="Client 1" className="w-20 h-12 md:w-24 md:h-14 lg:w-28 lg:h-16" />
-          <img src={client2} alt="Client 2" className="w-20 h-12 md:w-24 md:h-14 lg:w-28 lg:h-16" />
-          <img src={client3} alt="Client 3" className="w-20 h-12 md:w-24 md:h-14 lg:w-28 lg:h-16" />
-          <img src={client4} alt="Client 4" className="w-20 h-12 md:w-24 md:h-14 lg:w-28 lg:h-16" />
         </div>
-        <div className="flex flex-wrap justify-center gap-4 max-w-lg mx-auto mt-4">
-          <img src={client5} alt="Client 5" className="w-20 h-12 md:w-24 md:h-14 lg:w-28 lg:h-16" />
-          <img src={client6} alt="Client 6" className="w-20 h-12 md:w-24 md:h-14 lg:w-28 lg:h-16" />
+      </div>
+      <div className="flex flex-col items-center justify-center lg:gap-3 w-full ">
+        <div className="flex flex-wrap justify-center gap-[20px] lg:gap-6 ">
+          <img src={client1} alt="Client 1" className="w-24 md:w-24 md:h-14 lg:w-36 lg:h-16 object-contain" />
+          <img src={client2} alt="Client 2" className="w-24 md:w-24 md:h-14 lg:w-36 lg:h-16 object-contain" />
+          <img src={client3} alt="Client 3" className="w-24 md:w-24 md:h-14 lg:w-36 lg:h-16 object-contain" />
+          <img src={client4} alt="Client 4" className="w-16 md:w-24 md:h-14 lg:w-22 lg:h-16 object-contain" />
+        </div>
+        <div className="flex flex-wrap justify-center gap-3 mt-3 lg:mt-0">
+          <img src={client5} alt="Client 5" className="w-16 md:w-24 md:h-14 lg:w-22 lg:h-10 object-contain" />
+          <img src={client6} alt="Client 6" className="w-16 md:w-24 md:h-14 lg:w-22 lg:h-10 object-contain" />
         </div>
       </div>
     </section>

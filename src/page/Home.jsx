@@ -31,7 +31,6 @@ const Home = () => {
           <section className="our-clients ">
             <Ourclients />
           </section>
-          <Footer className="footer" />
         </div>
       </main>
     </div>
