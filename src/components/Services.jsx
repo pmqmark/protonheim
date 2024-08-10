@@ -27,7 +27,7 @@ const Services = () => {
           </div>
 
           <div className="w-full gap-5 flex flex-col lg:flex-row items-center justify-center lg:pt-10 ">
-            <div className="flex gap-5">
+            <div data-aos='fade-right' className="flex gap-5">
               <div className="">
                 <img className="w-20" alt="iconImage" src={serviceicon1} />
               </div>
@@ -41,7 +41,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className="flex gap-5">
+            <div data-aos='fade-left' className="flex gap-5">
               <div className="">
                 <img className="w-20" alt="iconImage" src={serviceicon2} />
               </div>
@@ -58,7 +58,7 @@ const Services = () => {
           </div>
 
           <div className="w-full gap-5 flex flex-col lg:flex-row items-center justify-center mt-5 mb-5 lg:mb-0">
-            <div className="flex gap-5">
+            <div data-aos='fade-right'className="flex gap-5">
               <div className="">
                 <img className="w-20" alt="iconImage" src={serviceicon3} />
               </div>
@@ -72,7 +72,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className="flex gap-5">
+            <div data-aos='fade-left' className="flex gap-5">
               <div className="">
                 <img className="w-20" alt="iconImage" src={serviceicon4} />
               </div>
@@ -92,7 +92,7 @@ const Services = () => {
 
       <section className=" bg-white">
         <div className="max-w-[980px] mx-auto w-full py-5 flex flex-col md:flex-row items-start gap-5 justify-center p-3">
-          <div className="w-full lg:my-14">
+          <div data-aos='fade-up' className="w-full lg:my-14">
             <h1 className=" font-gilroy text-3xl ">
               Why Choose
               <br /> Our Services?
@@ -110,7 +110,7 @@ const Services = () => {
               </li>
             </ul>
           </div>
-          <div className="w-full lg:my-14">
+          <div data-aos='fade-up' className="w-full lg:my-14">
             <img src={chooseimage} alt="imagpart" className="object-contain"/>
           </div>
         </div>

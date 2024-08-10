@@ -13,8 +13,8 @@ const About = () => {
       <section className=" min-h-screen flex flex-col items-center justify-center mb-10 lg:mb-20">
         {/* top Part */}
         <div className="w-full flex flex-col items-center my-16 lg:my-16 space-y-5 lg:space-y-10">
-          <h5 className="font-gilroy text-[14px] text-[#25AAE1] ">ABOUT US</h5>
-          <div className="w-full flex items-center justify-center">
+          <h5 data-aos='fade' className="font-gilroy text-[14px] text-[#25AAE1] ">ABOUT US</h5>
+          <div data-aos='fade-up' className="w-full flex items-center justify-center">
             <span className="font-gilroy text-3xl lg:text-4xl text-center font-normal lg:leading-[48px] tracking-custom text-black">
               We develop innovative solutions focused
               <br /> on the data for humans responsible for
@@ -23,9 +23,9 @@ const About = () => {
           </div>
         </div>
         {/* second image */}
-        <div className="max-w-[1100px] flex flex-col lg:flex-row items-center justify-center gap-3 lg:gap-8 px-3">
+        <div  className="max-w-[1100px] flex flex-col lg:flex-row items-center justify-center gap-3 lg:gap-8 px-3">
           {/* imageCard 1 */}
-          <div className="w-full">
+          <div data-aos='fade-right'  className="w-full">
             <img src={aboutimage1} className="w-full lg:h-[180px]" alt="..." />
             <div className="card-body">
               <p className="font-gilroy1 mt-3">
@@ -36,7 +36,7 @@ const About = () => {
             </div>
           </div>
           {/* imageCard 1 */}
-          <div className="w-full">
+          <div data-aos='fade-right' data-aos-delay='200' className="w-full">
             <img src={aboutimage2} className="w-full lg:h-[180px]" alt="..." />
             <div className="card-body">
               <p className="font-gilroy1 mt-3">
@@ -47,7 +47,7 @@ const About = () => {
             </div>
           </div>
           {/* imageCard 1 */}
-          <div className="w-full">
+          <div data-aos='fade-right' data-aos-delay='300' className="w-full">
             <img src={aboutimage3} className="w-full lg:h-[180px] " alt="..." />
             <div className="card-body">
               <p className="font-gilroy1 mt-3">
@@ -62,10 +62,10 @@ const About = () => {
 
       <section className="py-10 pb-40">
         <div>
-          <h1 className="font-gilroy text-3xl lg:text-4xl text-center font-normal lg:leading-[48px] tracking-custom text-black ">Our Team</h1>
+          <h1 data-aos='fade-up' className="font-gilroy text-3xl lg:text-4xl text-center font-normal lg:leading-[48px] tracking-custom text-black ">Our Team</h1>
         </div>
         <div className="flex flex-col items-center justify-center mt-14 lg:mt-20">
-          <div className="px-3 lg:w-3/4 grid grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-20">
+          <div data-aos='fade-up' className="px-3 lg:w-3/4 grid grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-20">
             <div className="flex flex-col items-center justify-center">
               <img src={ourteam1} className=" object-contain   lg:w-60" alt="..."></img>
               <p className="ourteam-p text-center mt-3">
