@@ -181,6 +181,43 @@ const Header = () => {
           </a>
         </nav>
       )}
+
+      {isOpen && (
+        <div className="h-screen w-screen fixed top-0 left-0 bg-white z-50 flex flex-col items-center justify-center">
+          <IoCloseCircleOutline
+            onClick={() => setIsOpen(false)}
+            size={24}
+            className="absolute right-2 top-2"
+          />
+
+          <div className="flex flex-col items-center justify-center h-full">
+            <div className="flex items-center justify-center mb-5">
+              <img src={PROTOHEIMlogo2} alt="logo" className="object-contain w-40" />
+            </div>
+            <a href="/" className="text-black mb-2 hover:text-[#25AAE1]">
+              Home
+            </a>
+            <a
+              href="/products"
+              className="text-black mb-2 hover:text-[#25AAE1]"
+            >
+              Products
+            </a>
+            <a
+              href="/services"
+              className="text-black mb-2 hover:text-[#25AAE1]"
+            >
+              Service
+            </a>
+            <a
+              href="about"
+              className="text-black mb-2 hover:text-[#25AAE1]"
+            >
+              About
+            </a>
+          </div>
+        </div>
+      )}
     </header>
   );
 };
