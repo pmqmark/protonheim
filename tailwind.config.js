@@ -14,6 +14,7 @@ module.exports = {
       },
       colors: {
         black: 'rgba(0, 0, 0, 1)',
+        primaryColor :"#25AAE1"
       },
     },
   },

@@ -10,10 +10,10 @@ const Ourclients = () => {
   return (
     <section className="py-10 min-h-[65vh] max-w-[1280px] flex flex-col items-center justify-center mx-auto w-full p-3 overflow-hidden">
       <div className="text-center mb-8">
-        <h2 className="text-3xl font-extrabold text-[#161C2D] mb-4">
+        <h2 data-aos='fade-up' className="text-3xl font-extrabold text-[#161C2D] mb-4">
           Our Clients
         </h2>
-        <div className="font-thin">
+        <div data-aos='fade' className="font-gilroy1">
           With lots of unique blocks, you can easily build a page without coding.
           <br />
           Build your next consultancy website within a few minutes. You have a business to run.

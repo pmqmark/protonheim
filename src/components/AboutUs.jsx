@@ -45,6 +45,7 @@ const AboutUs = () => {
     >
       <div className="text-center mb-10 lg:mb-20">
         <h5
+          data-aos='fade'
           className="mb-4"
           style={{
             fontFamily: "Gilroy-Bold, sans-serif",
@@ -58,10 +59,10 @@ const AboutUs = () => {
         >
           ABOUT US
         </h5>
-        <span style={aboutUsStyle}>
+        <span  data-aos='fade-up' style={aboutUsStyle}>
           Meet the Visionaries: Our Quirky Journey to Hardware Greatness!
         </span>
-        <div style={descriptionStyle} className="mt-4">
+        <div data-aos='fade' style={descriptionStyle} className="mt-4">
           Protoheim Pvt Ltd is a team of electronics and embedded systems
           <br />
           enthusiasts. Our journey began in 2021
@@ -69,10 +70,10 @@ const AboutUs = () => {
       </div>
 
       <div className="flex flex-col md:flex-row items-center justify-center gap-7 lg:gap-20">
-        <div className="flex-1">
+        <div data-aos='fade-left' className="flex-1">
           <img src={Video} alt="about" className="w-full h-auto object-cover" />
         </div>
-        <div className="flex-1">
+        <div data-aos='fade-right' className="flex-1">
           <div className="">
             {[
               {
@@ -98,7 +99,7 @@ const AboutUs = () => {
                   alt={`Icon ${index + 1}`}
                 />
                 <div style={{ marginLeft: "35px" }}>
-                  <h2 className="text-md font-bold mb-2">{item.title}</h2>
+                  <h2 className="text-md font-bold mb-2 hover:text-primaryColor cursor-cell">{item.title}</h2>
                   <p style={iconTextStyle}>
                     {item.text.split(" ").map((word, idx) => (
                       <React.Fragment key={idx}>

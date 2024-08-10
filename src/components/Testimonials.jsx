@@ -77,13 +77,13 @@ const Testimonials = () => {
   return (
     <section className="py-14 lg:py-20 min-h-screen max-w-[1280px] mx-auto w-full">
       <div className="text-center pb-8 ">
-        <h5 style={headingStyle} className="mb-1">
+        <h5 data-ao='fade' style={headingStyle} className="mb-1">
           TESTIMONIALS
         </h5>
-        <div style={quoteHeadingStyle} className="">
+        <div data-aos='fade-up' style={quoteHeadingStyle} className="">
           What people say about us
         </div>
-        <div style={descriptionStyle}>
+        <div data-aos='fade' style={descriptionStyle}>
           With lots of unique blocks, you can easily build a page without
           coding.
           <br />
@@ -92,7 +92,7 @@ const Testimonials = () => {
       </div>
 
       <div className="flex flex-wrap justify-center gap-8 lg:mt-10">
-        <div className="">
+        <div data-aos='fade-up'  className="">
           <div className="border rounded border-black/80 p-10 h-[380px]" style={cardStyle}>
             <img className="pb-16 w-12" src={Oval1} alt="Card image cap" />
             <div className="">
@@ -108,7 +108,7 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
-        <div className="">
+        <div data-aos='fade-up' data-aos-delay='200' className="">
           <div className="border rounded border-black/80 p-10 h-[380px]" style={cardStyle}>
             <img className="pb-16 w-12" src={Oval2} alt="Card image cap" />
             <div className="">
@@ -123,7 +123,7 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
-        <div className="">
+        <div data-aos='fade-up' data-aos-delay='400'  className="">
           <div className="border rounded border-black/80 p-10 h-[380px]" style={cardStyle}>
             <img className="pb-16 w-12" src={Oval3} alt="Card image cap" />
             <div className="">

@@ -54,17 +54,17 @@ const OurServices = () => {
         <div className="max-w-[1280px] mx-auto w-full">
 
           <div className="text-center flex flex-col items-center mb-5 ">
-            <span className="text-[2.25rem] mb-4 font-semibold block" style={headingStyle}>
+            <span data-aos="fade" className="text-[2.25rem] mb-4 font-semibold block" style={headingStyle}>
               OUR SERVICES
             </span>
-            <span className="block text-[#283891] w-full lg:w-1/2 text-center" style={mainHeadingStyle}>
+            <span data-aos="fade-up" className="block text-[#283891] w-full lg:w-1/2 text-center" style={mainHeadingStyle}>
               Beyond Fixes: Dive into Our Fantastically Futuristic Hardware Services
             </span>
           </div>
 
           {/* 2x2 Grid Layout */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-8 py-4 place-items-center">
-            <div className="flex items-start space-x-7 lg:space-x-4 mb-8">
+          <div data-aos='flip-up' className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-8 py-4 place-items-center">
+            <div  className="flex items-start space-x-7 lg:space-x-4 mb-8">
               <img className="w-[35px] h-auto object-contain" src={ic_layers1} alt="Icon 1" />
               <div>
                 <h2 className="text-[18px] text-[#283891] font-bold leading-[34px] tracking-[-0.5px]" >
