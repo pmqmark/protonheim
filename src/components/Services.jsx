@@ -8,14 +8,15 @@ import chooseimage from "../assets/chooseimage.png";
 import "../css/Servicestyles.css";
 
 const Services = () => {
+
   return (
     <>
     {/* landing part */}
       <div className="max-w-[1280px] mx-auto w-full pt-10 lg:pt-20 overflow-hidden">
         <section className="min-h-screen ">
           <div className="w-full flex flex-col items-center my-20 space-y-5 lg:space-y-10">
-            <h5 className="font-gilroy text-[14px] text-[#25AAE1] uppercase">Our Services</h5>
-            <div className="w-full flex items-center justify-center">
+            <h5 data-aos='fade' className="font-gilroy text-[14px] text-[#25AAE1] uppercase">Our Services</h5>
+            <div data-aos='fade-up' className="w-full flex items-center justify-center">
               <span className="font-gilroy text-3xl lg:text-4xl text-center font-normal lg:leading-[48px] tracking-custom text-black ">
                 Beyond Fixes: Dive into Our
                 <br />
