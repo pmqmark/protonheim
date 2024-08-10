@@ -4,7 +4,6 @@ import AboutUs from "../components/AboutUs";
 import OurProducts from "../components/OurProducts";
 import Testimonials from "../components/Testimonials";
 import Ourclients from "../components/Ourclients";
-import Footer from "../components/Footer";
 import "../css/Header.css";
 import LandingPage from "../components/LandingPage";
 

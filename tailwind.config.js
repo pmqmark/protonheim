@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         gilroy: ['Gilroy-Bold', 'sans-serif'],
+        gilroy1: ['Gilroy-Regular', 'sans-serif'],
       },
       letterSpacing: {
         custom: '-1.2px',
