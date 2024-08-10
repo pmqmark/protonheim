@@ -8,7 +8,7 @@ const LandingPage = () => {
   });
   return (
     <div
-      className="relative w-full h-screen md:h-[90vh] lg:h-[80vh] xl:h-screen 2xl:h-screen bg-cover bg-center"
+      className="relative w-full h-screen md:h-[90vh] lg:h-[80vh] xl:h-screen 2xl:h-screen bg-cover bg-center overflow-hidden"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       {/* Main Text Section */}

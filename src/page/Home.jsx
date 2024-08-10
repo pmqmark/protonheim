@@ -10,7 +10,7 @@ import LandingPage from "../components/LandingPage";
 const Home = () => {
   return (
     <div className="home-container bg-white">
-      <main className="flex-grow">
+      <main className="overflow-hidden">
         <div className="w-full">
           <section>
             <LandingPage />

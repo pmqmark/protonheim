@@ -13,7 +13,7 @@ import "../css/Productstyles.css";
 const Products = () => {
   return (
     <>
-      <main className="max-w-[1180px] mx-auto w-full py-10 lg:pt-20 min-h-screen bg-white">
+      <main className="max-w-[1180px] mx-auto w-full py-10 lg:pt-20 min-h-screen bg-white overflow-hidden">
         <section className="min-h-screen flex flex-col items-center justify-center gap-5 p-3 my-16 lg:my-0 overflow-hidden">
           <div className="text-center space-y-5 lg:space-y-10">
             <h5
