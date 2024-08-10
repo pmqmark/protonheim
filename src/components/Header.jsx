@@ -138,7 +138,7 @@ const Header = () => {
             Home
           </a>
           <a
-            href="/products"
+            href="about"
             className="text-black text-xs md:text-sm lg:text-base"
             style={{
               fontFamily: "Gilroy-Bold",
@@ -149,7 +149,7 @@ const Header = () => {
               textAlign: "center",
             }}
           >
-            Products
+            About
           </a>
           <a
             href="/services"
@@ -166,7 +166,7 @@ const Header = () => {
             Service
           </a>
           <a
-            href="about"
+            href="/products"
             className="text-black text-xs md:text-sm lg:text-base"
             style={{
               fontFamily: "Gilroy-Bold",
@@ -177,7 +177,7 @@ const Header = () => {
               textAlign: "center",
             }}
           >
-            About
+            Products
           </a>
         </nav>
       )}
@@ -192,17 +192,19 @@ const Header = () => {
 
           <div className="flex flex-col items-center justify-center h-full">
             <div className="flex items-center justify-center mb-5">
-              <img src={PROTOHEIMlogo2} alt="logo" className="object-contain w-40" />
+              <img
+                src={PROTOHEIMlogo2}
+                alt="logo"
+                className="object-contain w-40"
+              />
             </div>
             <a href="/" className="text-black mb-2 hover:text-[#25AAE1]">
               Home
             </a>
-            <a
-              href="/products"
-              className="text-black mb-2 hover:text-[#25AAE1]"
-            >
-              Products
+            <a href="about" className="text-black mb-2 hover:text-[#25AAE1]">
+              About
             </a>
+
             <a
               href="/services"
               className="text-black mb-2 hover:text-[#25AAE1]"
@@ -210,10 +212,10 @@ const Header = () => {
               Service
             </a>
             <a
-              href="about"
+              href="/products"
               className="text-black mb-2 hover:text-[#25AAE1]"
             >
-              About
+              Products
             </a>
           </div>
         </div>

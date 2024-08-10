@@ -9,11 +9,11 @@ const Footer = () => {
     <footer className="bg-[#283891] text-white p-4 flex flex-col items-center justify-center gap-4 text-center h-[400px]">
       <h1 className="text-2xl font-bold mb-2">Protoheim</h1>
       <div className="flex flex-wrap justify-center gap-4 mb-4">
-        <a href="contactus" className="text-md hover:underline font-thin tracking-wider">Contact us</a>
-        <a href="products" className="text-md hover:underline font-thin tracking-wider">Products</a>
+        <a href="/" className="text-md hover:underline font-thin tracking-wider">Home</a>
         <a href="about" className="text-md hover:underline font-thin tracking-wider">About us</a>
         <a href="services" className="text-md hover:underline font-thin tracking-wider">Services</a>
-        <a href="#" className="text-md hover:underline font-thin tracking-wider">Careers</a>
+        <a href="products" className="text-md hover:underline font-thin tracking-wider">Products</a>
+        <a href="contactus" className="text-md hover:underline font-thin tracking-wider">Contact us</a>
       </div>
       <div className="flex gap-4">
         <a href="#" className="w-6 h-6 flex items-center justify-center">
