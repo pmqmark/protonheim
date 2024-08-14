@@ -4,14 +4,17 @@ import AboutUs from "../components/AboutUs";
 import OurProducts from "../components/OurProducts";
 import Testimonials from "../components/Testimonials";
 import Ourclients from "../components/Ourclients";
-import Footer from "../components/Footer";
-import "../css/Header.css"; 
+import "../css/Header.css";
+import LandingPage from "../components/LandingPage";
 
 const Home = () => {
   return (
     <div className="home-container bg-white">
-      <main className="flex-grow">
+      <main className="overflow-hidden">
         <div className="w-full">
+          <section>
+            <LandingPage />
+          </section>
           <section className="our-products ">
             <OurProducts />
           </section>
@@ -27,7 +30,6 @@ const Home = () => {
           <section className="our-clients ">
             <Ourclients />
           </section>
-          <Footer className="footer" />
         </div>
       </main>
     </div>

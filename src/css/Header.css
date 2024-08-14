@@ -40,25 +40,20 @@ html, body {
 }
 
 /* Specific background colors for sections */
-.our-products {
-    background-color: #f9f9f9; /* Example background color */
-}
+
 
 .our-services {
     background-color: #ffffff; /* Example background color */
 }
 
 .about-us {
-    background-color: #f0f0f0; /* Example background color */
+    background-color: #F4F7FA; /* Example background color */
 }
 
 .testimonials {
     background-color: #ffffff; /* Example background color */
 }
 
-.our-clients {
-    background-color: #f9f9f9; /* Example background color */
-}
 
 .footer {
     background-color: #333333; /* Example background color */

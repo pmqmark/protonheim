@@ -1,13 +1,12 @@
-import React from 'react'
-import Services from '../components/Services'
+import React from "react";
+import Services from "../components/Services";
 
 const ServicePage = () => {
   return (
-    <div className=''>
-      <Services/>
-      
+    <div className="bg-[#F4F7FA]">
+      <Services />
     </div>
-  )
-}
+  );
+};
 
-export default ServicePage
+export default ServicePage;
