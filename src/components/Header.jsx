@@ -74,7 +74,7 @@ const Header = () => {
             Home
           </a>
           <a
-            href="/products"
+            href="/about"
             className="text-white text-xs md:text-sm lg:text-base"
             style={{
               fontFamily: "Gilroy-Bold",
@@ -85,7 +85,7 @@ const Header = () => {
               textAlign: "center",
             }}
           >
-            Products
+            About
           </a>
           <a
             href="/services"
@@ -102,7 +102,7 @@ const Header = () => {
             Service
           </a>
           <a
-            href="about"
+            href="products"
             className="text-white text-xs md:text-sm lg:text-base"
             style={{
               fontFamily: "Gilroy-Bold",
@@ -113,7 +113,7 @@ const Header = () => {
               textAlign: "center",
             }}
           >
-            About
+            Portfolio
           </a>
         </nav>
       ) : (
@@ -177,7 +177,7 @@ const Header = () => {
               textAlign: "center",
             }}
           >
-            Products
+            Portfolio
           </a>
         </nav>
       )}
@@ -215,7 +215,7 @@ const Header = () => {
               href="/products"
               className="text-black mb-2 hover:text-[#25AAE1]"
             >
-              Products
+              Portfolio
             </a>
           </div>
         </div>

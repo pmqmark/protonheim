@@ -63,9 +63,12 @@ const AboutUs = () => {
           Meet the Visionaries: Our Quirky Journey to Hardware Greatness!
         </span>
         <div data-aos='fade' style={descriptionStyle} className="mt-4">
-          Protoheim Pvt Ltd is a team of electronics and embedded systems
+        Protoheim Pvt Ltd is a dynamic team of electronics and embedded systems enthusiasts dedicated to advancing hardware knowledge and innovation. Our journey began in 2021 with the mission to foster a community where young engineers could deepen their understanding of electronics and embedded systems, while also inspiring them to become creators and innovators. Recognizing the potential for growth and
+
+the economic opportunities within this community, we evolved in 2023 into a leading provider of hardware services. By leveraging our expertise and insights gained from working closely with the next generation of engineers, we now offer top- tier solutions and support in hardware design and development, bridging the gap between aspiring makers and industry- ready technology.
+
           <br />
-          enthusiasts. Our journey began in 2021
+          "We Inspire to Innovate"
         </div>
       </div>
 
@@ -79,17 +82,17 @@ const AboutUs = () => {
               {
                 src: No1,
                 title: "Our Mission",
-                text: "We strive to be at the forefront of the technological revolution",
+                text: "To lead the technological revolution by embracing innovation and pushing boundaries in electronics,hardware, and prototyping",
               },
               {
                 src: No2,
                 title: "Our Vision",
-                text: "We strive to be at the forefront of the technological revolution",
+                text: "To transform industries and accelerate growth through cutting-edge solutions while advancing our country's technical development.",
               },
               {
                 src: No3,
                 title: "Our Values",
-                text: "We strive to be at the forefront of the technological revolution",
+                text: "Commitment to empowering local talent, fostering skill development, and contributing to a brighter future through active participation in technological progress.",
               },
             ].map((item, index) => (
               <div key={index} className="flex items-start mb-8">

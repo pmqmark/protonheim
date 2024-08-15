@@ -68,10 +68,11 @@ const OurServices = () => {
               <img className="w-[35px] h-auto object-contain" src={ic_layers1} alt="Icon 1" />
               <div>
                 <h2 className="text-[18px] text-[#283891] font-bold leading-[34px] tracking-[-0.5px]" >
-                  Embedded System Design
+                  Embedded System 
                 </h2>
                 <p className="mt-2" style={textStyle}>
-                  With lots of unique blocks, you can<br /> easily build a page without coding.<br />Build your next landing page
+                 We specialize in designing and developing   <br /> embedded systems, leveraging our expertise  <br />Our team excels in creating tailored  <br /> microcontroller based systems, integrating  <br /> sensors for real-time data,and developing   <br /> bespoke firmware to meet specific needs. <br />  We ensure seamless component integration, optimizing the system for reliability and  <br /> efficiency while addressing integration  <br /> challenges to achieve peak performance. <br />
+                
                 </p>
               </div>
             </div>
@@ -79,9 +80,11 @@ const OurServices = () => {
             <div className="flex items-start space-x-7 lg:space-x-4 mb-8">
               <img className="w-[35px] h-auto object-contain" src={ic_layers2} alt="Icon 2" />
               <div>
-                <h2 className="text-[18px] text-[#283891] font-bold leading-[34px] tracking-[-0.5px]" >PCB Design</h2>
+                <h2 className="text-[18px] text-[#283891] font-bold leading-[34px] tracking-[-0.5px]" >Electronic Product Design</h2>
                 <p className="mt-2" style={textStyle}>
-                  With lots of unique blocks, you can<br /> easily build a page without coding.<br />Build your next landing page
+                  We specialise in transforming electronic devices <br /> from  concepts to final products, covering all<br />aspects of electronic design. Our expertise  <br /> includes precise circuit design, careful component   <br /> selection, and the creation of functional prototypes. <br /> These prototypes undergo rigorous testing to <br /> 
+                  ensure they meet your standards before mass    <br />production. Our comprehensive approach ensures <br/> a smooth transition from idea to finished device.   <br /> providing innovative and reliable solutions.<br /> 
+                 
                 </p>
               </div>
             </div>
@@ -89,9 +92,12 @@ const OurServices = () => {
             <div className="flex items-start space-x-7 lg:space-x-4 mb-8">
               <img className="w-[35px] h-auto object-contain" src={ic_layers3} alt="Icon 3" />
               <div>
-                <h2 className="text-[18px] text-[#283891] font-bold leading-[34px] tracking-[-0.5px]" style={serviceHeadingStyle}>Hardware Consultancy</h2>
+                <h2 className="text-[18px] text-[#283891] font-bold leading-[34px] tracking-[-0.5px]" style={serviceHeadingStyle}>PCB Design</h2>
                 <p className="mt-2" style={textStyle}>
-                  With lots of unique blocks, you can<br /> easily build a page without coding.<br />Build your next landing page
+                   Our expert engineers design proffessional<br /> grade printed circuit board (PCB) layouts <br />with a focus on high quality outcomes. We
+                   <br /> meticulously evaluate key factors such as <br /> signal integrity,power distribution, and  <br /> manufacturability to ensure that each PCB
+                   <br /> performs reliably and efficiently. Our < br/> approach balances technical precision with <br /> practical consideration, resulting in designs <br />
+                   that meet strict performance and production standards.  <br /> 
                 </p>
               </div>
             </div>
@@ -99,9 +105,14 @@ const OurServices = () => {
             <div className="flex items-start space-x-7 lg:space-x-4 mb-8">
               <img className="w-[35px] h-auto object-contain" src={ic_layers1} alt="Icon 4" />
               <div>
-                <h2 className="text-[18px] text-[#283891] font-bold leading-[34px] tracking-[-0.5px]" style={serviceHeadingStyle}>IoT & Home Automation</h2>
+                <h2 className="text-[18px] text-[#283891] font-bold leading-[34px] tracking-[-0.5px]" style={serviceHeadingStyle}>Hardware Consultancy</h2>
                 <p className="mt-2" style={textStyle}>
-                  With lots of unique blocks, you can<br /> easily build a page without coding.<br />Build your next landing page
+                  Our hardware consultancy services offer <br /> expert guidance on a range of hardware <br />related issues .We assist you with critical
+                  <br /> tasks such as component selection,
+                  <br /> ensuring you choose parts that meet your <br /> technical and budgetary requirments <br />
+                  Additionally, we help design robust systems <br /> architectures and provide troubleshooting
+                  <br /> support to address and resolve any <br /> hardware challenges you may encounter <br /> our goal is to offer valuable insights 
+                  <br /> and solutions that enhance he functionality <br />and efficency of your hardware projects
                 </p>
               </div>
             </div>
@@ -111,7 +122,10 @@ const OurServices = () => {
               <div>
                 <h2 className="text-[18px] text-[#283891] font-bold leading-[34px] tracking-[-0.5px]" style={serviceHeadingStyle}>ML Based Product Design</h2>
                 <p className="mt-2" style={textStyle}>
-                  With lots of unique blocks, you can<br /> easily build a page without coding.<br />Build your next landing page
+                We use machine learning techniques to  <br /> develop intelligent products that enhance  <br />functionality and performance. Our <br /> expertise spans various applications, <br /> including predictive maintenance to 
+                  <br />to prevent equipment failures, image <br /> recognition for visual data, and natural <br /> language processing for understanding<br />    and interacting with human language
+                  <br /> integrating machine learning into  <br /> product design , We create  advanced <br />  solutions that improve efficiency  accuracy <br />and user management
+                  <br />  
                 </p>
               </div>
             </div>
@@ -119,9 +133,14 @@ const OurServices = () => {
             <div className="flex items-start space-x-7 lg:space-x-4 mb-8">
               <img className="w-[35px] h-auto object-contain" src={ic_layers3} alt="Icon 6" />
               <div>
-                <h2 className="text-[18px] text-[#283891] font-bold leading-[34px] tracking-[-0.5px]" style={serviceHeadingStyle}>Embedded System Design</h2>
+                <h2 className="text-[18px] text-[#283891] font-bold leading-[34px] tracking-[-0.5px]" style={serviceHeadingStyle}>IoT and home automation</h2>
                 <p className="mt-2" style={textStyle}>
-                  With lots of unique blocks, you can<br /> easily build a page without coding.<br />Build your next landing page
+                  Our IoT and home automation solutions<br /> encompass a wide range of applications.<br />from smart home devices that enhances 
+                  <br /> everyday living to industrial automation <br /> system that optimize operations. We focus 
+                  <br /> on creating interconnected solutions that <br /> leverage data-driven insights to improve <br />
+                  efficiency and convenience in both residential <br /> and industrial environments. By integrating 
+                  <br /> advanced technology, we enable seamless connectivity and control , making it easier to 
+                  <br /> manage and monitor various aspects of your <br /> environment in a connected world  
                 </p>
               </div>
             </div>

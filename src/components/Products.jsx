@@ -20,7 +20,7 @@ const Products = () => {
               data-aos="fade"
               className="font-gilroy text-[14px] text-[#25AAE1]"
             >
-              OUR PRODUCTS
+              OUR PORTFOLIO
             </h5>
             <div className="w-full ">
               <section
