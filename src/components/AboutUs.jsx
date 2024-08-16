@@ -41,11 +41,11 @@ const AboutUs = () => {
   return (
     <section
       id="about"
-      className="py-10 lg:py-20 min-h-screen max-w-[1280px] mx-auto w-full"
+      className="min-h-screen max-w-[1280px] mx-auto w-full p-3"
     >
-      <div className="text-center mb-10 lg:mb-20">
+      <div className="text-center my-10 lg:my-20">
         <h5
-          data-aos='fade'
+          data-aos="fade"
           className="mb-4"
           style={{
             fontFamily: "Gilroy-Bold, sans-serif",
@@ -59,24 +59,32 @@ const AboutUs = () => {
         >
           ABOUT US
         </h5>
-        <span  data-aos='fade-up' style={aboutUsStyle}>
+        <span data-aos="fade-up" style={aboutUsStyle}>
           Meet the Visionaries: Our Quirky Journey to Hardware Greatness!
         </span>
-        <div data-aos='fade' style={descriptionStyle} className="mt-4">
-        Protoheim Pvt Ltd is a dynamic team of electronics and embedded systems enthusiasts dedicated to advancing hardware knowledge and innovation. Our journey began in 2021 with the mission to foster a community where young engineers could deepen their understanding of electronics and embedded systems, while also inspiring them to become creators and innovators. Recognizing the potential for growth and
-
-the economic opportunities within this community, we evolved in 2023 into a leading provider of hardware services. By leveraging our expertise and insights gained from working closely with the next generation of engineers, we now offer top- tier solutions and support in hardware design and development, bridging the gap between aspiring makers and industry- ready technology.
-
+        <div data-aos="fade" style={descriptionStyle} className="mt-4">
+          Protoheim Pvt Ltd is a dynamic team of electronics and embedded
+          systems enthusiasts dedicated to advancing hardware knowledge and
+          innovation. Our journey began in 2021 with the mission to foster a
+          community where young engineers could deepen their understanding of
+          electronics and embedded systems, while also inspiring them to become
+          creators and innovators. Recognizing the potential for growth and the
+          economic opportunities within this community, we evolved in 2023 into
+          a leading provider of hardware services. By leveraging our expertise
+          and insights gained from working closely with the next generation of
+          engineers, we now offer top- tier solutions and support in hardware
+          design and development, bridging the gap between aspiring makers and
+          industry- ready technology.
           <br />
           "We Inspire to Innovate"
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center justify-center gap-7 lg:gap-20">
-        <div data-aos='fade-left' className="flex-1">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-7 lg:gap-20 mb-10">
+        <div data-aos="fade-left" className="flex-1">
           <img src={Video} alt="about" className="w-full h-auto object-cover" />
         </div>
-        <div data-aos='fade-right' className="flex-1">
+        <div data-aos="fade-right" className="flex-1">
           <div className="">
             {[
               {
@@ -102,7 +110,9 @@ the economic opportunities within this community, we evolved in 2023 into a lead
                   alt={`Icon ${index + 1}`}
                 />
                 <div style={{ marginLeft: "35px" }}>
-                  <h2 className="text-md font-bold mb-2 hover:text-primaryColor cursor-cell">{item.title}</h2>
+                  <h2 className="text-md font-bold mb-2 hover:text-primaryColor cursor-cell">
+                    {item.title}
+                  </h2>
                   <p style={iconTextStyle}>
                     {item.text.split(" ").map((word, idx) => (
                       <React.Fragment key={idx}>
