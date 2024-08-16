@@ -15,14 +15,14 @@ const LandingPage = () => {
       <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center text-center w-full">
         <p
           data-aos="fade-up" 
-          className="text-white text-[30px] truncate md:text-[32px] lg:text-[48px] leading-[32px] md:leading-[40px] lg:leading-[58px] tracking-[1px] font-[Gilroy-Bold] mb-4"
+          className="text-white text-[30px] truncate md:text-[32px] lg:text-[58px] leading-[32px] md:leading-[40px] lg:leading-[58px] tracking-[1px] font-[Gilroy-Bold] mb-4"
           style={{
             textShadow: "0px 4px 14px rgba(255, 255, 255, 0.25)", // Text shadow effect
           }}
         >
-          We inspire to
-          <br />
-          innovate
+          We Inspire To
+          
+          Innovate
         </p>
         <p
           data-aos="fade-up"data-aos-delay="300"
