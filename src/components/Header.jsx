@@ -27,6 +27,24 @@ const Header = () => {
     <header className="w-full absolute top-0 z-10 bg-transparent max-w-screen-2xl mx-auto lg:px-5 ">
       {/* Navbar Container */}
       <div className="flex items-center justify-between lg:py-3 p-3">
+        {/* Logo */}
+        <a href="/" className="flex justify-center lg:w-full md:justify-start ">
+          <img src={getLogo()} alt="PROTOHEIM Logo" className="h-10 lg:h-16 " />
+        </a>
+
+        {/* Contact Button */}
+        <a
+          href="/contactus"
+          className="hidden md:flex items-center justify-center"
+        >
+          <button
+            type="button"
+            className="p-2 lg:w-[100px] lg:h-[30px] bg-[rgba(37,170,225,1)] text-white rounded-md text-xs lg:text-[14px]"
+          >
+            Contact
+          </button>
+        </a>
+
         {/* Mobile Menu Button */}
         <button
           className="md:hidden text-[rgba(37,170,225,1)] "
@@ -34,21 +52,6 @@ const Header = () => {
         >
           {isOpen ? <IoCloseCircleOutline size={24} /> : <LuMenu size={28} />}
         </button>
-
-        {/* Logo */}
-        <div className="flex justify-center w-full md:justify-start">
-          <img src={getLogo()} alt="PROTOHEIM Logo" className="h-10 lg:h-16 " />
-        </div>
-
-        {/* Contact Button */}
-        <Link to={"/contactus"} className="flex items-center justify-center">
-          <button
-            type="button"
-            className="p-2 lg:w-[100px] lg:h-[30px] bg-[rgba(37,170,225,1)] text-white rounded-md text-xs lg:text-[14px]"
-          >
-            Contact
-          </button>
-        </Link>
       </div>
 
       {/* Navbar Links */}
@@ -216,6 +219,18 @@ const Header = () => {
               className="text-black mb-2 hover:text-[#25AAE1]"
             >
               Portfolio
+            </a>
+            {/* Contact Button */}
+            <a
+              href="/contactus"
+              className="flex items-center justify-center mt-4"
+            >
+              <button
+                type="button"
+                className="p-2 px-5 bg-[rgba(37,170,225,1)] text-white rounded-md text-sm"
+              >
+                Contact
+              </button>
             </a>
           </div>
         </div>
