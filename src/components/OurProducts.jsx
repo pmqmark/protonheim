@@ -86,7 +86,7 @@ const OurProducts = () => {
             style={headingStyle}
             className="text-sm md:text-base"
           >
-            OUR PRODUCTS
+            OUR PORTFOLIO 
           </span>
           <span
             data-aos="fade-up"
