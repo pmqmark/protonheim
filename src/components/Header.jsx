@@ -12,25 +12,28 @@ const Header = () => {
   const location = useLocation();
   const currentPath = location.pathname;
 
-  const getLogo = () => {
-    if (currentPath === "/" || currentPath === "/contactus") {
-      return PROTOHEIMlogo;
-    } else {
-      return PROTOHEIM_LOGO;
-    }
-  };
-
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
-  // Determine if the current page is one of the special pages
-  const isSpecialPage = ["/about", "/services", "/products"].includes(currentPath);
-
   return (
-    <header className="w-full absolute top-0 z-10 bg-transparent max-w-screen-2xl mx-auto lg:px-5">
+    <header
+      className="w-full absolute top-0 z-10 max-w-screen-2xl mx-auto lg:px-5"
+      style={{
+        ...(window.innerWidth <= 640 && {
+          backgroundColor: "white",
+        }),
+      }}
+    >
       {/* Navbar Container */}
-      <div className="flex items-center justify-between lg:py-3 p-3">
+      <div
+        className="flex items-center justify-between lg:py-3 p-3"
+        style={{
+          ...(window.innerWidth <= 640 && {
+            backgroundColor: "white",
+          }),
+        }}
+      >
         {/* Logo */}
         <a href="/" className="flex items-center lg:w-full md:justify-start">
           <img
@@ -47,8 +50,13 @@ const Header = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-[rgba(37,170,225,1)]"
+          className="md:hidden"
           onClick={toggleMenu}
+          style={{
+            ...(window.innerWidth <= 640 && {
+              color: "rgba(37, 170, 225, 1)",
+            }),
+          }}
         >
           {isOpen ? <IoCloseCircleOutline size={24} /> : <LuMenu size={28} />}
         </button>
@@ -60,11 +68,16 @@ const Header = () => {
         space-y-4 md:space-y-0 md:flex-row md:space-x-8 ${
           isOpen ? "block" : "hidden"
         } md:flex p-4`}
+        style={{
+          ...(window.innerWidth <= 640 && {
+            backgroundColor: "white",
+          }),
+        }}
       >
         <a
           href="/"
           className={`text-xs md:text-sm lg:text-base ${
-            currentPath === "/" || isSpecialPage ? "text-black" : "text-white"
+            currentPath === "/" ? "text-black" : "text-black"
           }`}
           style={{
             fontFamily: "Gilroy-Bold",
@@ -73,6 +86,9 @@ const Header = () => {
             lineHeight: "26px",
             letterSpacing: "-0.1px",
             textAlign: "center",
+            ...(window.innerWidth <= 640 && {
+              color: "black",
+            }),
           }}
         >
           Home
@@ -80,7 +96,7 @@ const Header = () => {
         <a
           href="/about"
           className={`text-xs md:text-sm lg:text-base ${
-            currentPath === "/about" || isSpecialPage ? "text-black" : "text-white"
+            currentPath === "/about" ? "text-black" : "text-black"
           }`}
           style={{
             fontFamily: "Gilroy-Bold",
@@ -89,6 +105,9 @@ const Header = () => {
             lineHeight: "26px",
             letterSpacing: "-0.1px",
             textAlign: "center",
+            ...(window.innerWidth <= 640 && {
+              color: "black",
+            }),
           }}
         >
           About
@@ -96,7 +115,7 @@ const Header = () => {
         <a
           href="/services"
           className={`text-xs md:text-sm lg:text-base ${
-            currentPath === "/services" || isSpecialPage ? "text-black" : "text-white"
+            currentPath === "/services" ? "text-black" : "text-black"
           }`}
           style={{
             fontFamily: "Gilroy-Bold",
@@ -105,6 +124,9 @@ const Header = () => {
             lineHeight: "26px",
             letterSpacing: "-0.1px",
             textAlign: "center",
+            ...(window.innerWidth <= 640 && {
+              color: "black",
+            }),
           }}
         >
           Service
@@ -112,7 +134,7 @@ const Header = () => {
         <a
           href="/products"
           className={`text-xs md:text-sm lg:text-base ${
-            currentPath === "/products" || isSpecialPage ? "text-black" : "text-white"
+            currentPath === "/products" ? "text-black" : "text-black"
           }`}
           style={{
             fontFamily: "Gilroy-Bold",
@@ -121,6 +143,9 @@ const Header = () => {
             lineHeight: "26px",
             letterSpacing: "-0.1px",
             textAlign: "center",
+            ...(window.innerWidth <= 640 && {
+              color: "black",
+            }),
           }}
         >
           Portfolio
@@ -128,7 +153,7 @@ const Header = () => {
         <a
           href="/contactus"
           className={`text-xs md:text-sm lg:text-base ${
-            currentPath === "/contactus" || isSpecialPage ? "text-black" : "text-white"
+            currentPath === "/contactus" ? "text-black" : "text-black"
           }`}
           style={{
             fontFamily: "Gilroy-Bold",
@@ -137,6 +162,9 @@ const Header = () => {
             lineHeight: "26px",
             letterSpacing: "-0.1px",
             textAlign: "center",
+            ...(window.innerWidth <= 640 && {
+              color: "black",
+            }),
           }}
         >
           Contact
@@ -144,11 +172,24 @@ const Header = () => {
       </nav>
 
       {isOpen && (
-        <div className="h-screen w-screen fixed top-0 left-0 bg-white z-50 flex flex-col items-center justify-center">
+        <div
+          className="h-screen w-screen fixed top-0 left-0 z-50 flex flex-col items-center justify-center"
+          style={{
+            ...(window.innerWidth <= 640 && {
+              backgroundColor: "white",
+              color: "black",
+            }),
+          }}
+        >
           <IoCloseCircleOutline
             onClick={() => setIsOpen(false)}
             size={24}
             className="absolute right-2 top-2"
+            style={{
+              ...(window.innerWidth <= 640 && {
+                color: "black",
+              }),
+            }}
           />
 
           <div className="flex flex-col items-center justify-center h-full">
@@ -166,49 +207,61 @@ const Header = () => {
             </div>
             <a
               href="/"
-              className={`text-black mb-2 ${
-                currentPath === "/" || isSpecialPage ? "text-black" : "text-white"
-              }`}
+              style={{
+                ...(window.innerWidth <= 640 && {
+                  color: "black",
+                }),
+                marginBottom: "0.5rem",
+              }}
             >
               Home
             </a>
             <a
               href="/about"
-              className={`text-black mb-2 ${
-                currentPath === "/about" || isSpecialPage ? "text-black" : "text-white"
-              }`}
+              style={{
+                ...(window.innerWidth <= 640 && {
+                  color: "black",
+                }),
+                marginBottom: "0.5rem",
+              }}
             >
               About
             </a>
             <a
               href="/services"
-              className={`text-black mb-2 ${
-                currentPath === "/services" || isSpecialPage ? "text-black" : "text-white"
-              }`}
+              style={{
+                ...(window.innerWidth <= 640 && {
+                  color: "black",
+                }),
+                marginBottom: "0.5rem",
+              }}
             >
               Service
             </a>
             <a
               href="/products"
-              className={`text-black mb-2 ${
-                currentPath === "/products" || isSpecialPage ? "text-black" : "text-white"
-              }`}
+              style={{
+                ...(window.innerWidth <= 640 && {
+                  color: "black",
+                }),
+                marginBottom: "0.5rem",
+              }}
             >
               Portfolio
             </a>
             <a
               href="/contactus"
-              className={`flex items-center justify-center mt-4 ${
-                currentPath === "/contactus" || isSpecialPage ? "text-black" : "text-white"
-              }`}
+              className="flex items-center justify-center mt-4"
             >
               <button
                 type="button"
-                className={`p-2 px-5 ${
-                  currentPath === "/contactus" || isSpecialPage
-                    ? "bg-black text-white"
-                    : "bg-[rgba(37,170,225,1)] text-black"
-                } rounded-md text-sm`}
+                className="p-2 px-5 rounded-md text-sm"
+                style={{
+                  ...(window.innerWidth <= 640 && {
+                    backgroundColor: "black",
+                    color: "white",
+                  }),
+                }}
               >
                 Contact
               </button>
