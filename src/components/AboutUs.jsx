@@ -3,8 +3,11 @@ import Video from "../assets/Video.png";
 import No1 from "../assets/No1.png";
 import No2 from "../assets/No2.png";
 import No3 from "../assets/No3.png";
+import { useNavigate } from 'react-router-dom';
 
 const AboutUs = () => {
+  const navigate = useNavigate(); // Initialize the useNavigate hook
+
   // Define inline styles for headings and text
   const aboutUsStyle = {
     fontFamily: "Gilroy-Bold, sans-serif",
@@ -36,6 +39,11 @@ const AboutUs = () => {
     textAlign: "left",
     color: "rgba(22, 28, 45, 1)", // Updated color
     marginLeft: "10px", // Added margin-left to move text slightly to the right
+  };
+
+  const handleClick = () => {
+    navigate('/about');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
@@ -76,7 +84,7 @@ const AboutUs = () => {
           design and development, bridging the gap between aspiring makers and
           industry- ready technology.
           <br />
-          "We Inspire to Innovate"
+          "We Inspire to Innovate"
         </div>
       </div>
 
@@ -95,12 +103,12 @@ const AboutUs = () => {
               {
                 src: No2,
                 title: "Our Vision",
-                text: "To transform industries and accelerate growth through cutting-edge solutions while advancing our country's technical development.",
+                text: "To transform industries and accelerate growth through cutting-edge solutions while advancing our country's technical development.",
               },
               {
                 src: No3,
                 title: "Our Values",
-                text: "Commitment to empowering local talent, fostering skill development, and contributing to a brighter future through active participation in technological progress.",
+                text: "Commitment to empowering local talent, fostering skill development, and contributing to a brighter future through active participation in technological progress.",
               },
             ].map((item, index) => (
               <div key={index} className="flex items-start mb-8">
@@ -132,6 +140,22 @@ const AboutUs = () => {
             ))}
           </div>
         </div>
+      </div>
+
+      <div className="text-right mt-10">
+        <button
+          style={{
+            backgroundColor: 'rgba(40, 56, 145, 1)', // Example button color
+            color: '#fff',
+            padding: '10px 20px',
+            border: 'none',
+            borderRadius: '5px',
+            cursor: 'pointer',
+          }}
+          onClick={handleClick}
+        >
+          Learn More
+        </button>
       </div>
     </section>
   );

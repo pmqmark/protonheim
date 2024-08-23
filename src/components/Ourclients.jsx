@@ -1,10 +1,10 @@
 import React from "react";
-import client1 from "../assets/client1.png";
-import client2 from "../assets/client2.png";
-import client3 from "../assets/client3.png";
-import client4 from "../assets/client4.png";
-import client5 from "../assets/client5.png";
-import client6 from "../assets/client6.png";
+import client1 from "../assets/client7.png";
+import client2 from "../assets/client8.png";
+import client3 from "../assets/client9.png";
+import client4 from "../assets/client10.png";
+import client5 from "../assets/client11.png";
+
 
 const Ourclients = () => {
   return (
@@ -30,7 +30,7 @@ const Ourclients = () => {
         </div>
         <div className="flex flex-wrap justify-center gap-3 mt-3 lg:mt-0">
           <img src={client5} alt="Client 5" className="w-16 md:w-24 md:h-14 lg:w-22 lg:h-10 object-contain" />
-          <img src={client6} alt="Client 6" className="w-16 md:w-24 md:h-14 lg:w-22 lg:h-10 object-contain" />
+       
         </div>
       </div>
     </section>
