@@ -183,16 +183,16 @@ const Header = () => {
           />
 
           <div className="flex flex-col items-center justify-center h-full">
-            <div className="flex items-center">
+            <div className="flex items-center mb-3">
               <img
                 src={PROTOHEIM_LOGO}
                 alt="PROTOHEIM Logo"
-                className="object-contain w-12"
+                className="object-contain w-8"
               />
               <img
                 src={PROTOHEIM_}
                 alt="PROTOHEIM Additional Logo"
-                className="object-contain w-10 ml-1"
+                className="object-contain w-48 ml-1"
               />
             </div>
             <a
